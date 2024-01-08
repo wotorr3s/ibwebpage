@@ -1,0 +1,55 @@
+$blue: rgb(21,164,218);
+body{
+    font-family:Helvetica, sans-serif;
+}
+html{
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	overflow-x: hidden;
+	z-index: 5;
+	padding: 0;
+}
+.background-photo{
+	width: 75vmax;
+	height: 75vmax;
+	z-index: 0;
+	position: absolute;
+	right: -200vmax;
+	top: -15vmax;
+	animation: slide_in_right ease-out 1.7s forwards;
+}
+@keyframes slide_in_right{
+	0%{
+		right: -200vmax;
+		transform: rotate(0deg);
+	}
+	100%{
+		right: -15vmax;
+		transform: rotate(360deg);
+	}
+}
+
+.slide-in-menu{
+	position: absolute;
+	top: 20%;
+	left: -200vmax;
+    animation: slide_in_left ease-out 1.7s forwards;
+}
+
+@keyframes slide_in_left{
+	0%{
+		left: -200vmax;
+	}
+	100%{
+		left: 0vmax;
+	}
+}
+
+.menu a{
+	text-decoration: none;
+	color: black;
+	font-size: 2.5vmax;
+	font-weight: bold;
+}
