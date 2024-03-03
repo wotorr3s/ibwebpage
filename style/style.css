@@ -1,42 +1,52 @@
-body {
-  font-family: Helvetica, sans-serif;
-}
-
-html {
-  padding-left: 15%;
-  padding-right: 15%;
-  padding-top: 10%;
-  padding-bottom: 10%;
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
+body, html {
+  margin: 0;
   overflow-x: hidden;
-  z-index: 5;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
   padding: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .background-photo {
   width: 75vmax;
   height: 75vmax;
   z-index: 0;
-  position: absolute;
+  position: fixed;
   right: -200vmax;
-  top: -15vmax;
-  animation: slide_in_right ease-out 1.7s forwards;
+  padding: 0;
+  animation: slide_in_right ease-out 3s forwards;
+}
+
+.background-photo img {
+  padding: 0;
+  margin: 0;
 }
 
 @keyframes slide_in_right {
   0% {
-    right: -200vmax;
+    translate: 200vmax;
     transform: rotate(0deg);
   }
+  50% {
+    translate: 20vmax;
+    transform: rotate(360deg);
+  }
   100% {
-    right: -15vmax;
+    translate: 20vmax;
     transform: rotate(360deg);
   }
 }
 .slide-in-menu {
   position: absolute;
-  top: 20%;
+  height: 100%;
   left: -200vmax;
   animation: slide_in_left ease-out 1.7s forwards;
+}
+
+.menu {
+  margin-top: 30vmin;
 }
 
 @keyframes slide_in_left {
@@ -44,12 +54,184 @@ html {
     left: -200vmax;
   }
   100% {
-    left: 0vmax;
+    left: 2vmax;
   }
 }
-.menu a {
+.menu button {
   text-decoration: none;
-  color: black;
-  font-size: 2.5vmax;
+  font-size: 3.75vmin;
+  margin-bottom: 1.5vmin;
+  margin-top: 0;
   font-weight: bold;
+  position: relative;
+  padding: 10px 20px;
+  color: rgb(21, 164, 218);
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  transition: background-color 0.3s ease;
+}
+
+.menu button:hover {
+  background-color: white;
+}
+
+.arrow {
+  position: absolute;
+  right: 2px;
+  top: 50%;
+  border: solid #fff;
+  border-width: 0 7px 7px 0;
+  display: inline-block;
+  padding: 5px;
+  transform: translateY(-50%) rotate(-45deg);
+  transition: border-color 0.3s ease;
+  animation: arrow-out 1s forwards;
+}
+
+.arrow-present {
+  position: absolute;
+  right: 2px;
+  top: 50%;
+  border: solid rgb(21, 164, 218);
+  border-width: 0 7px 7px 0;
+  display: inline-block;
+  padding: 5px;
+  transform: translateY(-50%) rotate(-45deg);
+}
+
+.menu button:hover .arrow {
+  border-color: rgb(21, 164, 218);
+  animation: arrow-animation 1s forwards;
+}
+
+@keyframes arrow-animation {
+  0% {
+    border-color: white;
+  }
+  100% {
+    border-color: rgb(21, 164, 218);
+  }
+}
+@keyframes arrow-out {
+  0% {
+    border-color: rgb(21, 164, 218);
+  }
+  100% {
+    border-color: white;
+  }
+}
+#name {
+  font-size: 6vmin;
+  font-weight: bold;
+  color: rgb(0, 88, 171);
+  z-index: 1;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.line-name {
+  border: 3px solid rgb(0, 88, 171);
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.parallax {
+  position: relative;
+  min-height: 100%;
+  width: 100vmax;
+  height: 100vmin;
+  background-attachment: fixed;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.parallax::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vmax;
+  height: 100vmin;
+  background-image: url("../img/ib_logo.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 75%;
+  animation: slide_in_right 3s ease-out forwards;
+}
+
+.content {
+  background-image: url("../img/ib_logo.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 75%;
+  position: relative;
+  margin-top: 93vmin;
+}
+
+.info-block {
+  padding-left: 5vmax;
+  padding-right: 5vmax;
+  padding-top: 5vmin;
+  padding-bottom: 5vmin;
+  background-color: rgb(0, 88, 171);
+  color: white;
+}
+
+.info-title {
+  font-weight: bold;
+  font-size: 5vmin;
+}
+
+.info-content {
+  font-size: 3vmin;
+}
+
+.transparent-block {
+  height: 50vmin;
+  width: 100vmax;
+  background: transparent;
+}
+
+.groups-select {
+  padding-left: 4vmax;
+  padding-right: 4vmax;
+  padding-top: 5vmin;
+  padding-bottom: 5vmin;
+  background-color: rgb(0, 88, 171);
+  color: white;
+  float: center;
+  text-align: center;
+}
+
+.group {
+  font-size: 4vmin;
+  display: inline-block;
+  margin-right: 5vmax;
+}
+
+.subject {
+  font-size: 3vmin;
+}
+
+a {
+  color: white;
+  font-weight: bold;
+}
+
+.info-short {
+  font-size: 3vmin;
+  font-weight: bold;
+}
+
+.footer {
+  text-align: center;
+  padding: 5vmin;
+  width: 100vmax;
+  font-size: 4vmin;
+  background-color: rgb(21, 164, 218);
+  color: white;
 }/*# sourceMappingURL=style.css.map */
