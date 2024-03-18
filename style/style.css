@@ -251,4 +251,10 @@ a:hover {
 
 .row {
   padding-bottom: 1vmin;
+}
+
+.separator {
+  height: 5vmin;
+  width: 100vmax;
+  background-color: rgb(21, 164, 218);
 }/*# sourceMappingURL=style.css.map */
