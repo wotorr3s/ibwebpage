@@ -6,6 +6,7 @@
         <title>IB Mickiewicz</title>
         <link rel="stylesheet" href="style/style.css">
         <script type="text/javascript" src="js/script.js" defer></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     </head>
     <body>
         <div class="parallax" id="parallax">
@@ -14,19 +15,19 @@
                     <span id="name">IB DP w Mickiewiczu</span>
                     <hr class="line-name">
                     <br>
-                    <a href="index.html"><button>
+                    <a class="link-secondary" href="index.html"><button>
                         Strona Główna
                         <span class="arrow"></span>
                       </button></a><br>
-                    <a href="subjects.html"><button>
+                    <a class="link-secondary" href="subjects.html"><button>
                         Przedmioty
                         <span class="arrow-present"></span>
                       </button></a><br>
-                      <a href="practical.html"><button>
+                      <a class="link-secondary" href="practical.html"><button>
                         Pro-tips
                         <span class="arrow"></span>
                       </button></a><br>
-                    <!-- <a href="contact.php"><button>
+                    <!-- <a class="link-secondary" href="contact.php"><button>
                         Kontakt
                         <span class="arrow"></span>
                       </button></a><br> -->
@@ -34,439 +35,1063 @@
             </div>
             <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><clipPath id="home"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></clipPath></svg>
             <div class="content">
-                <div class="info-block">
-                    <div class="info-title">Jak dobrać przedmioty?</div>
-                    <div class="info-content">
-                        Najważniejsze podczas wybierania przedmiotów jest zastanowienie się, co chcecie robić w przyszłości. Nie musicie oczywiście mieć konkretnego planu, nawet jeśli to zdecydowanie ułatwiłoby całe zadanie, ale warto zdecydować, w stronę jakiej dziedziny chcecie się kierować. Takie ogólne zawężenie wyboru pozwoli na określenie przynajmniej jednego lub dwóch przedmiotów kierunkowych, takich jak Biology i Chemistry w przypadku medycyny, czy Computer Science jeśli chcecie robić coś związanego z informatyką. Wybranie około dwóch najważniejszych przedmiotów jest podstawą.
-	                    <br><br>
-                        Kiedy już macie zarys tego, co chcecie wybrać, warto sprawdzić na stronach różnych uniwersytetów w krajach, które Was interesują - zobaczycie, jakie mniej więcej są wymagania i konkretnie które przedmioty powinniście wybrać. To Wam też pomoże w wyborze matematyki. Niektóre uczelnie mogą oczekiwać jednej ze ścieżek, w większości jednak nie będzie to miało znaczenia. Jeśli strony uczelni Wam nie pomogą, sprawdźcie <a href="#mat">Matematyka AA vs AI</a>, gdzie w skrócie wytłumaczone są różnice pomiędzy ścieżkami.
-                        <br><br>
-                        Teraz musicie już tylko sprawdzić, z których grup nie wybraliście jeszcze przedmiotu. Jeśli interesuje Was konkretny z tych jeszcze dostępnych, to spróbujcie z nim. Gdyby się okazało, że jest trudny albo nie taki jakiego oczekiwaliście, to przecież zawsze możecie go zmienić. Jeżeli natomiast zupełnie nie wiecie, co dobrać do swojego kompletu, najlepiej wybrać taki, który albo jest najprostszy i będziecie spędzali nad nim relatywnie niewiele czasu, albo będzie możliwie najbardziej przydatny. Przykładowo z Grupy 3 przyjemne są Geography czy Business, a z Grupy 4 nie powinien przeszkadzać ESS. 
+                <div class="info-block container-fluid">
+                    <div class="row">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-7 info-title">Jak dobrać przedmioty</div>
+                    </div>
+                    <div class="row short-desc">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-6">
+                            Najważniejsze podczas wybierania przedmiotów jest zastanowienie się, co chcecie robić w przyszłości. Nie musicie oczywiście mieć konkretnego planu, nawet jeśli to zdecydowanie ułatwiłoby całe zadanie, ale warto zdecydować, w stronę jakiej dziedziny chcecie się kierować. Takie ogólne zawężenie wyboru pozwoli na określenie przynajmniej jednego lub dwóch przedmiotów kierunkowych, takich jak Biology i Chemistry w przypadku medycyny, czy Computer Science jeśli chcecie robić coś związanego z informatyką. Wybranie około dwóch najważniejszych przedmiotów jest podstawą.
+                            <br><br>
+                            Kiedy już macie zarys tego, co chcecie wybrać, warto sprawdzić na stronach różnych uniwersytetów w krajach, które Was interesują - zobaczycie, jakie mniej więcej są wymagania i konkretnie które przedmioty powinniście wybrać. To Wam też pomoże w wyborze matematyki. Niektóre uczelnie mogą oczekiwać jednej ze ścieżek, w większości jednak nie będzie to miało znaczenia. Jeśli strony uczelni Wam nie pomogą, sprawdźcie <a class="link-secondary" href="#mat">Matematyka AA vs AI</a>, gdzie w skrócie wytłumaczone są różnice pomiędzy ścieżkami.
+                            <br><br>
+                            Teraz musicie już tylko sprawdzić, z których grup nie wybraliście jeszcze przedmiotu. Jeśli interesuje Was konkretny z tych jeszcze dostępnych, to spróbujcie z nim. Gdyby się okazało, że jest trudny albo nie taki jakiego oczekiwaliście, to przecież zawsze możecie go zmienić. Jeżeli natomiast zupełnie nie wiecie, co dobrać do swojego kompletu, najlepiej wybrać taki, który albo jest najprostszy i będziecie spędzali nad nim relatywnie niewiele czasu, albo będzie możliwie najbardziej przydatny. Przykładowo z Grupy 3 przyjemne są Geography czy Business, a z Grupy 4 nie powinien przeszkadzać ESS. 
+                        </div>
+                        <div class="col-sm-4"><img src="img/subjects.webp" width="100%"></div>
+                        <div class="col-sm-1"></div>
                     </div>
                 </div>
                 <div class="groups-select">
                     <div class="group">
                         <b>Group 1 Studies in Language and Literature</b>
-                        <div class="subject"><a href="#pola">Polish A</a></div>
-                        <div class="subject"><a href="#enga">English A</a></div>
+                        <div class="subject"><a class="link-secondary" href="#pola">Polish A</a></div>
+                        <div class="subject"><a class="link-secondary" href="#enga">English A</a></div>
                     </div>
                     <div class="group">
                         <b>Group 2 Language of Acquisition</b>
-                        <div class="subject"><a href="#engb">English B</a></div>
-                        <div class="subject"><a href="#b">Other Languages</a></div>
+                        <div class="subject"><a class="link-secondary" href="#engb">English B</a></div>
+                        <div class="subject"><a class="link-secondary" href="#b">Other Languages</a></div>
                     </div>
                     <br>
                     <br>
                     <div class="group">
                         <b>Group 3 Individuals and Societies</b>
-                        <div class="subject"><a href="#geo">Geografia</a></div>
-                        <div class="subject"><a href="#hist">History</a></div>
-                        <div class="subject"><a href="#ess">Environmental Systems and Societies</a></div>
-                        <div class="subject"><a href="#bus">Business Management</a></div>
-                        <div class="subject"><a href="#econ">Economics</a></div>
+                        <div class="subject"><a class="link-secondary" href="#geo">Geografia</a></div>
+                        <div class="subject"><a class="link-secondary" href="#hist">History</a></div>
+                        <div class="subject"><a class="link-secondary" href="#ess">Environmental Systems and Societies</a></div>
+                        <div class="subject"><a class="link-secondary" href="#bus">Business Management</a></div>
+                        <div class="subject"><a class="link-secondary" href="#econ">Economics</a></div>
                     </div>
                     <div class="group">
                         <b>Group 4 Experimental Sciences</b>
-                        <div class="subject"><a href="#biol">Biology</a></div>
-                        <div class="subject"><a href="#chem">Chemistry</a></div>
-                        <div class="subject"><a href="#ess">Environmental Systems and Societies</a></div>
-                        <div class="subject"><a href="#comp">Computer Science</a></div>
-                        <div class="subject"><a href="#phys">Physics</a></div>
+                        <div class="subject"><a class="link-secondary" href="#biol">Biology</a></div>
+                        <div class="subject"><a class="link-secondary" href="#chem">Chemistry</a></div>
+                        <div class="subject"><a class="link-secondary" href="#ess">Environmental Systems and Societies</a></div>
+                        <div class="subject"><a class="link-secondary" href="#comp">Computer Science</a></div>
+                        <div class="subject"><a class="link-secondary" href="#phys">Physics</a></div>
                     </div>
                     <br>
                     <br>
                     <div class="group">
                         <b>Group 5 Mathematics</b>
-                        <div class="subject"><a href="#mat">Analysis and Approaches</a></div>
-                        <div class="subject"><a href="#mat">Applications and Interpretations</a></div>
+                        <div class="subject"><a class="link-secondary" href="#mat">Analysis and Approaches</a></div>
+                        <div class="subject"><a class="link-secondary" href="#mat">Applications and Interpretations</a></div>
                     </div>
                 </div>
                 <div class="transparent-block"></div>
-                <div class="info-block" id="pola">
-                    <div class="info-title">Polish A</div>
-                    <div class="info-short">
+                <div class="info-block container-fluid" id="pola">
+                    <div class="row">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-7 info-title">Polish A</div>
+                        <div class="col-sm-3 info-short">
+                            Groupa: Group 1 Studies in Language and Literature <br>
+                            Poziom: SL/HL
+                        </div>
+                    </div>
+                    <div class="row short-desc">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-7">
+                        Największym plusem Polish A jest to, że inaczej niż w polskim programie, tutaj zamiast historii literatury polskiej uczycie się o analizie i interpretacji różnych dzieł literackich. Nie skupiacie się na suchych historycznych faktach, zajmujecie się kilkoma tytułami i przez niecałe dwa lata kursu dogłębnie je analizujecie. Nauczycie się jak podchodzić do prozy, poezji i dramatów, jak zauważać techniki wykorzystywane przez autorów oraz jak problem przedstawiony w utworze może być tematem wyjścia w jakiejś dyskusji dotyczącej szerszego zagadnienia.
+                    </div>
+                        <div class="col-sm-1"></div>
+                    </div>
+                    <br>
+                    <div class="row top-row">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-7">Część egzaminu</div>
+                        <div class="col-sm-3">Długość</div>
+                    </div>
+                    <div class="row info-content">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-7">
+                            <b>1. Egzamin ustny (Individual Oral)</b><br>
+                            Wybieracie około czterdziestolinijkowe fragmenty książek, które przerobiliście podczas kursu i omawiacie je przez przed nauczycielkami i dyktafonem; punktem wyjścia analizy fragmentów jest jakiś ogólnoświatowy problem (global issue), który pojawia się w obu książkach i jest obecny współcześnie; wykorzystanych dwóch książek nie możecie już użyć później;
+                        </div>
+                        <div class="col-sm-3">
+                            <b>10 minut</b><br>
+                        </div>
+                        <div class="col-sm-1"></div>
+                    </div>
+                    <div class="row info-content">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-7">
+                            <b>2. Arkusz pierwszy (Paper 1)</b><br>
+                            Dostajecie do wyboru dwa teksty (wiersz i fragment prozy) i macie za zadanie napisanć analizę jednego z nich; możecie skorzystać z pytania pomocniczego; na rozszerzeniu musicie napisać analizy obu tekstów;
+                        </div>
+                        <div class="col-sm-3">
+                            <b>2 godziny 15 minut</b><br>
+                        </div>
+                        <div class="col-sm-1"></div>
+                    </div>
+                    <div class="row info-content">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-7">
+                            <b>3. Arkusz drugi (Paper 2)</b><br>
+                            Jest to esej porównawczy, w którym wybieracie jeden z czterech tematów i musicie przeanalizować dwie z książek omówionych podczas kursu przez jego pryzmat, jednocześnie co chwilę je porównując;
+                        </div>
+                        <div class="col-sm-3">
+                            <b>1 godzina 45 minut</b><br>
+                        </div>
+                        <div class="col-sm-1"></div>
+                    </div>
+                    <div class="row info-content">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-7">
+                            <b>4. Higher Level Essay (tylko dla rozszerzenia)</b><br>
+                            Jest to esej, w którym analizujecie jedną z lektur (tych niewykorzystanych w żadnej innej części) na podstawie wymyślonego przez siebie tematu.	
+                        </div>
+                        <div class="col-sm-3">
+                            <b>1200 - 1600 słów</b><br>
+                        </div>
+                        <div class="col-sm-1"></div>
+                    </div>
+                </div>
+            <div class="info-block container-fluid" id="enga">
+                <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7 info-title">English A</div>
+                    <div class="col-sm-3 info-short">
                         Groupa: Group 1 Studies in Language and Literature <br>
                         Poziom: SL/HL
                     </div>
-                    <div class="info-content">
-                        Największym plusem Polish A jest to, że inaczej niż w polskim programie, tutaj zamiast historii literatury polskiej uczycie się o analizie i interpretacji różnych dzieł literackich. Nie skupiacie się na suchych historycznych faktach, zajmujecie się kilkoma tytułami i przez niecałe dwa lata kursu dogłębnie je analizujecie. Nauczycie się jak podchodzić do prozy, poezji i dramatów, jak zauważać techniki wykorzystywane przez autorów oraz jak problem przedstawiony w utworze może być tematem wyjścia w jakiejś dyskusji dotyczącej szerszego zagadnienia.
-                        <br><br>
-                        <b>Elementy matury:</b><br>
-                        <b>1. Egzamin ustny (Individual Oral)</b> - wybieracie około czterdziestolinijkowe fragmenty książek, które przerobiliście podczas kursu i omawiacie je przez 10 minut przed nauczycielkami i dyktafonem; punktem wyjścia analizy fragmentów jest jakiś ogólnoświatowy problem (global issue), który pojawia się w obu książkach i jest obecny współcześnie; wykorzystanych dwóch książek nie możecie już użyć później; 
-                        <br>
-                        <b>2. Arkusz pierwszy (Paper 1)</b> - dostajecie do wyboru dwa teksty (wiersz i fragment prozy) i macie 1h 15 min na napisanie analizy jednego z nich; możecie skorzystać z pytania pomocniczego; na rozszerzeniu musicie napisać analizy obu tekstów - wtedy czas wynosi 2h 15 min;
-                        <br>
-                        <b>3. Arkusz drugi (Paper 2)</b> - jest to esej porównawczy, w którym wybieracie jeden z czterech tematów i w 1h 45 min musicie przeanalizować dwie z książek omówionych podczas kursu przez jego pryzmat, jednocześnie co chwilę je porównując;
-                        <br>
-                        <b>4. Higher Level Essay (tylko dla rozszerzenia)</b> - esej mający od 1200 do 1600 słów, w którym analizujecie jedną z lektur (tych niewykorzystanych w żadnej innej części) na podstawie wymyślonego przez siebie tematu.	
+                </div>
+                <div class="row short-desc">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        W przeciwieństwie do Polish A, kurs English A Language and Literature nie zajmuje się tylko analizą utworów literackich, ale również tekstów tzw. non-literary, czyli m.in. przemówieniami, stronami internetowymi, okładkami magazynów czy komiksami. Nie uczycie się języka i jest to trochę bardziej wymagający przedmiot niż English B.
+                        Podczas trwania kursu przerabiacie kilka książek oraz prace różnych twórców nazywane “Bodies of Work” - zbiór dzieł jednego autora, na przykład przemówienia jednej osoby albo okładki konkretnego magazynu. Nauczycie się je analizować, zwracać uwagę na charakterystyczne elementy i oceniać, czy dany tekst dobrze spełnia założony cel.
+                        English A jest czymś dla Was, jeśli lubicie analizować i interpretować, jesteście przygotowani na większą ilość pracy niż w przypadku English B i chcecie nauczyć się zauważać technik, których dookoła Was nie widzi nikt inny.
+                </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <br>
+                <div class="row top-row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">Część egzaminu</div>
+                    <div class="col-sm-3">Długość</div>
+                </div>
+                <div class="row info-content">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        <b>1. Egzamin ustny (Individual Oral)</b><br>
+                        Podczas dziesięciominutowego przemówienia analizujecie fragment jednego z literackich tekstów oraz jedną pracę z wybranego Body of Work na podstawie wybranego przez siebie Global Issue, podobnie jak na polskim; wykorzystanych prac nie możecie już użyć później;
+                    </div>
+                    <div class="col-sm-3">
+                        <b>10 minut</b><br>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <div class="row info-content">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        <b>2. Arkusz pierwszy (Paper 1)</b><br>
+                        Dostajecie dwa non-literary teksty do wyboru i piszecie analizę jednego z nich; na rozszerzeniu piszecie analizę obu tekstów;
+                    </div>
+                    <div class="col-sm-3">
+                        <b>1 godzina 15 minut lub 2 godziny 15 minut</b><br>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <div class="row info-content">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        <b>3. Arkusz drugi (Paper 2)</b><br>
+                        Jest to esej porównawczy, w którym wybieracie jeden z czterech tematów i analizujecie dwie z książek omówionych podczas kursu przez jego pryzmat, jednocześnie co chwilę je porównując;
+                    </div>
+                    <div class="col-sm-3">
+                        <b>1 godzina 45 minut</b><br>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <div class="row info-content">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        <b>4. Higher Level Essay (tylko dla rozszerzenia)</b><br>
+                        Esej, w którym analizujecie jedną z lektur albo jedno Body of Work (nic nie mogło być wykorzystane dla innej części matury) na podstawie wymyślonego przez siebie tematu.
+                    </div>
+                    <div class="col-sm-3">
+                        <b>1200 - 1600 słów</b><br>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+
+
+            <div class="transparent-block"></div>
+            <div class="info-block container-fluid" id="engb">
+                <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7 info-title">English B</div>
+                    <div class="col-sm-3 info-short">
+                        Groupa: Group 2 Language of Acquisition <br>
+                        Poziom: HL
                     </div>
                 </div>
-            <div class="info-block">
-                <div class="info-title" id="enga">English A</div>
-                <div class="info-short">
-                    Groupa: Group 1 Studies in Language and Literature <br>
-                    Poziom: SL/HL
+                <div class="row short-desc">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        English B jest jednym z prostszych przedmiotów dla wielu uczniów, ponieważ znamy angielski na tyle dobrze by był on naszym językiem wykładowym w IB. Zajęcia polegają głównie na dyskusji oraz ćwiczeniu pisania, czytania i rozumienia z słuchu. Jeśli fanem lekcji gramatyki nie jesteś, to mam dla ciebie dobrą wiadomość- podczas zajęć English B raczej już ich nie ma. 
                 </div>
-                <div class="info-content">
-                    W przeciwieństwie do Polish A, kurs English A Language and Literature nie zajmuje się tylko analizą utworów literackich, ale również tekstów tzw. non-literary, czyli m.in. przemówieniami, stronami internetowymi, okładkami magazynów czy komiksami. Nie uczycie się języka i jest to trochę bardziej wymagający przedmiot niż English B.
-	                <br>
-                    <br>
-                    Podczas trwania kursu przerabiacie kilka książek oraz prace różnych twórców nazywane “Bodies of Work” - zbiór dzieł jednego autora, na przykład przemówienia jednej osoby albo okładki konkretnego magazynu. Nauczycie się je analizować, zwracać uwagę na charakterystyczne elementy i oceniać, czy dany tekst dobrze spełnia założony cel.
-                    <br>
-                    <br>
-                    English A jest czymś dla Was, jeśli lubicie analizować i interpretować, jesteście przygotowani na większą ilość pracy niż w przypadku English B i chcecie nauczyć się zauważać technik, których dookoła Was nie widzi nikt inny.
-                    <br><br>
-                    <b>Elementy matury:</b><br>
-                    <b>1. Individual Oral</b> - podczas dziesięciominutowego przemówienia analizujecie fragment jednego z literackich tekstów oraz jedną pracę z wybranego Body of Work na podstawie wybranego przez siebie Global Issue, podobnie jak na polskim; <b>wykorzystanych prac nie możecie już użyć później</b>;
-                    <br>
-                    <b>2. Paper 1</b> - dostajecie dwa non-literary teksty do wyboru i macie 1h 15 min na napisanie analizy jednego z nich; na rozszerzeniu piszecie analizę obu tekstów, przeznaczony na to czas to 2h 15 min;
-                    <br>
-                    <b>3. Paper 2</b> -  jest to esej porównawczy, w którym wybieracie jeden z czterech tematów i w 1h 45 min musicie przeanalizować dwie z książek omówionych podczas kursu przez jego pryzmat, jednocześnie co chwilę je porównując;
-                    <br>
-                    <b>4. Higher Level Essay (tylko dla rozszerzenia)</b> - esej mający od 1200 do 1600 słów, w którym analizujecie jedną z lektur albo jedno Body of Work (nic nie mogło być wykorzystane dla innej części matury) na podstawie wymyślonego przez siebie tematu.
-                 </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <br>
+                <div class="row top-row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">Część egzaminu</div>
+                    <div class="col-sm-3">Długość</div>
+                </div>
+                <div class="row info-content">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        <b>1. Egzamin ustny (Individual Oral)</b><br>
+                        Na poziomie HL podczas dwóch lat nauki w IB trzeba przeczytać dwie lektury wybrane przez naszych nauczycieli (u nas jest to “1984” i “Girl with a pearl earring”). Czemu o tym mówię? Podczas egzaminu ustnego dostaniesz fragmenty właśnie z tych dwóch książek, z których wybierzesz jeden do przeanalizowania i przygotowania wypowiedzi odnoszącej się do treści lektury. Wybranie fragmentu, o którym będziesz mówił/a + przygotowanie wypowiedzi pod nadzorem egzaminatora - 20 minut, Twoja wypowiedź- 3-4 minuty, pytania od nauczyciela- 4-5 minuty, oraz rozmowa na jeden z tematów, które były omawiane na lekcji- 5-6 minuty.     
+                    </div>
+                    <div class="col-sm-3">
+                        <b>35 minut</b><br>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <div class="row info-content">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        <b>2. Arkusz pierwszy (Paper 1)</b><br>
+                        Jest to egzamin sprawdzający Twoją umiejętność pisania tekstów różnego typu (na lekcjach będziecie się ich uczyć). Do wybrania jest kilka tematów (przykład poniżej), a Twoim zadaniem jest wybranie jednego i napisanie odpowiedniego tekstu do niego:
+                        <br>
+                        Imagine that you are an active and popular travel writer. You have just returned from an adventure trip that has changed your outlook on life. Write about your experience and its effects on you. 
+                        Do wybrania są trzy typy tekstów: e-mail, blog, essay (tylko jeden jest odpowiednim typem tekstu do zadania)
+                    </div>
+                    <div class="col-sm-3">
+                        <b>1 godzina 15 minut (SL) lub 1 godzina 30 minut (HL)</b><br>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <div class="row info-content">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        <b>3. Arkusz drugi (Paper 2)</b><br>
+                        Ta część pisemnego egzaminu składa się z dwóch części: listening i reading.
+                    </div>
+                    <div class="col-sm-3">
+                        <b>Listening: 45 minut (SL) lub 1 godzina (HL)</b><br>
+                        <b>Reading:  1 godzina</b>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
             </div>
-            <div class="transparent-block"></div>
-            <div class="info-block" id="engb">
-                <div class="info-title">English B</div>
-                <div class="info-short">
-                    Groupa: Group 2 Language of Acquisition <br>
-                    Poziom: HL
-                </div>
-                <div class="info-content">
-                    English B jest jednym z prostszych przedmiotów dla wielu uczniów, ponieważ znamy angielski na tyle dobrze by był on naszym językiem wykładowym w IB. Zajęcia polegają głównie na dyskusji oraz ćwiczeniu pisania, czytania i rozumienia z słuchu. Jeśli fanem lekcji gramatyki nie jesteś, to mam dla ciebie dobrą wiadomość- podczas zajęć English B raczej już ich nie ma. 
-                    <br><br>
+                    <!-- <br><br>
                     <b>Elementy matury:</b><br>
-                    <b>1. Individual Oral</b> - na poziomie HL podczas dwóch lat nauki w IB trzeba przeczytać dwie lektury wybrane przez naszych nauczycieli (u nas jest to “1984” i “Girl with a pearl earring”). Czemu o tym mówię? Podczas egzaminu ustnego dostaniesz fragmenty właśnie z tych dwóch książek, z których wybierzesz jeden do przeanalizowania i przygotowania wypowiedzi odnoszącej się do treści lektury. Wybranie fragmentu, o którym będziesz mówił/a + przygotowanie wypowiedzi pod nadzorem egzaminatora - 20 minut, Twoja wypowiedź- 3-4 minuty, pytania od nauczyciela- 4-5 minuty, oraz rozmowa na jeden z tematów, które były omawiane na lekcji- 5-6 minuty. W sumie 35 minut.              
+                    <b>1. Individual Oral</b> -         
                     <br>
                     <b>2. Paper 1</b><br>
                     Liczba punktów: 30 (25% ostatecznej oceny)<br>
                     Czas trwania: 1 h 15 min dla SL i 1 h 30 min dla HL<br>
                     Liczba słów: 250-400 dla SL i 450-600 dla HL<br>
-                    Jest to egzamin sprawdzający Twoją umiejętność pisania tekstów różnego typu (na lekcjach będziecie się ich uczyć). Do wybrania jest kilka tematów (przykład poniżej), a Twoim zadaniem jest wybranie jednego i napisanie odpowiedniego tekstu do niego:
-                    <br>
-                    Imagine that you are an active and popular travel writer. You have just returned from an adventure trip that has changed your outlook on life. Write about your experience and its effects on you. 
-                    Do wybrania są trzy typy tekstów: e-mail, blog, essay (tylko jeden jest odpowiednim typem tekstu do zadania)
+                    
                     
                     <br>
                     <b>3. Paper 2</b>
                     Liczba punktów: 65 (50% ostatecznej oceny)<br>
-                    Czas trwania listening: 45 min dla SL i 1 h dla HL<br>
-                    Czas trwania reading: 1 h dla SL i HL<br>
+                    Czas trwania reading:<br>
                     Ta część pisemnego egzaminu składa się z dwóch części: listening i reading.
                     
                 </div>
-            </div>
-            <div class="info-block" id="b">
-                <div class="info-title">Other Languages B</div>
-                <div class="info-short">
-                    Groupa: Group 2 Language of Acquisition <br>
-                    Poziom: ab inition/SL/HL
+            </div> -->
+            <div class="info-block container-fluid" id="b">
+                <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7 info-title">Other Languages B</div>
+                    <div class="col-sm-3 info-short">
+                        Groupa: Group 2 Language of Acquisition <br>
+                        Poziom: ab inition/SL/HL
+                    </div>
                 </div>
-                <div class="info-content">
-                    W naszej szkole oferowane są French B, German B oraz Spanish B. Każdego możecie uczyć się na trzech różnych poziomach - Ab Initio (od podstaw do poziomu A2), Standard Level (mniej więcej od A2+ do B1) oraz Higher Level (wyższe poziomy). Pierwsze dwie możliwości są po prostu kursem językowym, gdzie przerabiacie gramatykę, słownictwo i elementy kulturowe, natomiast Higher Level z jakiegokolwiek języka jest jak English B w naszej szkole, tam opisany jest wygląd egzaminu.
-
-                    <br><br>
-                    <b>Elementy matury pomiędzy Ab Initio i Standard Level różnią się właściwie tylko poziomem trudności i czasem przeznaczonym na każdą część:</b><br>
-                    <b>1. Individual Oral</b> - przez kilka minut opisujecie sytuację lub problem pokazany na obrazku i odpowiadacie na pytania zadane przez egzaminatora;
-                    <br>
-                    <b>2. Paper 1</b> - rozwiązujecie zadania na podstawie tekstów słuchanego oraz pisemnego;
-                    <br>
-                    <b>3. Paper 2</b> - na podstawie jednego z wybranych tematów piszecie krótką pracę w danym języku, mogą to być m.in. list, pocztówka czy mail.
+                <div class="row short-desc">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        W naszej szkole oferowane są French B, German B oraz Spanish B. Każdego możecie uczyć się na trzech różnych poziomach - Ab Initio (od podstaw do poziomu A2), Standard Level (mniej więcej od A2+ do B1) oraz Higher Level (wyższe poziomy). Pierwsze dwie możliwości są po prostu kursem językowym, gdzie przerabiacie gramatykę, słownictwo i elementy kulturowe, natomiast Higher Level z jakiegokolwiek języka jest jak English B w naszej szkole, tam opisany jest wygląd egzaminu. Elementy matury pomiędzy Ab Initio i Standard Level różnią się właściwie tylko poziomem trudności i czasem przeznaczonym na każdą część.
                 </div>
-            </div>
-            <div class="transparent-block"></div>
-            <div class="info-block" id="geo">
-                <div class="info-title">Geography</div>
-                <div class="info-short">
-                    Groupa: Group 3 Individuals and Societies <br>
-                    Poziom: SL/HL
+                    <div class="col-sm-1"></div>
                 </div>
-                <div class="info-content">
-                    Na IB geografia jest bardziej społeczna niż fizyczna, stawia się na procesy w społeczeństwach na całym świecie niż na geologię. Jest to dość prosty i przyjemny przedmiot, który na podstawie prawdziwych przykładów z całego świata pokaże Wam wszechobecne problemy związane z m.in. globalnym ociepleniem czy urbanizacją, przedstawi też różne rozwiązania i perspektywy. Musicie znać tzw. case studies, czyli właśnie przykłady omawianych procesów ze świata. 	
-                    <br><br>
-                    <b>Elementy matury:</b><br>
-                    <b>1. Internal Assessment (FIeldwork) </b>- praca badawcza mająca maksymalnie 2500 słów, w której zajmujecie się jakimś geograficznym zjawiskiem i za pomocą badań terenowych, a później map i wykresów piszecie jego analizę w wyznaczonym przez siebie miejscu;
-                    <br>
-                    <b>2. Paper 1</b> - pytania dotyczą options, dwóch na podstawie i trzech na rozszerzeniu; na odpowiedzi na którkie pytania oraz jeden esej z każdej z opcji podstawa ma 1h 30 min, a rozszerzenie 2h 15 min;
-                    <br>
-                    <b>3. Paper 2</b> - sprawdza znajomość obowiązkowej części materiału (tzw. core), czyli trzech działów; trwa 1h 15 min;
-                    <br>
-                    <b>4. Paper 3 (tylko dla rozszerzenia)</b> - dłuższe zadania dotyczące pozostałych trzech działów; przeznaczony czas to 1h. 
-
+                <br>
+                <div class="row top-row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">Część egzaminu</div>
+                    <div class="col-sm-3">Długość</div>
                 </div>
-            </div>
-            <div class="info-block" id="hist">
-                <div class="info-title">History</div>
-                <div class="info-short">
-                    Groupa: Group 3 Individuals and Societies <br>
-                    Poziom: SL/HL
+                <div class="row info-content">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        <b>1. Egzamin ustny (Individual Oral)</b><br>
+                        Przez kilka minut opisujecie sytuację lub problem pokazany na obrazku i odpowiadacie na pytania zadane przez egzaminatora;
+                    </div>
+                    <div class="col-sm-3">
+                        <b>5 - 30 minut</b><br>
+                    </div>
+                    <div class="col-sm-1"></div>
                 </div>
-                <div class="info-content">
-                    Historia na IB pozwoli Wam zobaczyć różne perspektywy na niektóre wydarzenia lub postaci historyczne, skupiając się na przyczynach, skutkach, procesach - zrozumieniu wydarzeń, a nie wkuwaniu dat na pamięć bez większego ładu i składu. Nie uczycie się całej historii świata albo danego kraju, zajmujecie się konkretnym zagadnieniem w danym okresie, np. autorytaryzm albo wojny w XX wieku, i robicie to dosyć dogłębnie.
-                    <br><br>
-                    <b>Elementy matury:</b><br>
-                    <b>1. Historical Investigation </b>- praca badawcza na wybrany przez Was temat, z jej pomocą uczycie się oceniać wartość dostępnych źródeł oraz jak pomiędzy nimi wybierać;
-
-                    <br>
-                    <b>2. Paper 1</b> - odpowiedzi na pytania związane z analizą dołączonych materiałów, trwa 1h.
-                    <br>
-                    <b>3. Paper 2</b> - polega na napisaniu esejów o fragmentach historii świata; czas przeznaczony na tę część to 1h 30 min;
-                    <br>
-                    <b>4. Paper 3 (tylko dla rozszerzenia)</b> - napisanie esejów związanych z historią danego regionu świata (np. Afryki albo Europy); trwa 2h 15 min.
+                <div class="row info-content">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        <b>2. Arkusz pierwszy (Paper 1)</b><br>
+                        Rozwiązujecie zadania na podstawie tekstów słuchanego oraz pisemnego;
+                    </div>
+                    <div class="col-sm-3">
+                        <b>-</b><br>
+                    </div>
+                    <div class="col-sm-1"></div>
                 </div>
-            </div>
-            <div class="info-block" id="ess">
-                <div class="info-title">Environmental Systems and Societies</div>
-                <div class="info-short">
-                    Groupa: Group 3 Individuals and Societies <br>
-                    Poziom: SL
-                </div>
-                <div class="info-content">
-                    ESS jest ciekawym przedmiotem, który jako jedyny jednocześnie znajduje się w dwóch grupach - trzeciej i czwartej. Jest czymś pomiędzy geografią i biologią, a do tego jest raczej prosty i przyjemny, często wybierany jako coś z Sciences, jako że jest mniej wymagający od pozostałych.
-                    <br><br>
-                    <b>Elementy matury:</b><br>
-                    <b>1. Internal Assessment </b>- praca długa na maksymalnie 3000 słów, w której badacie coś związanego z materiałem, np. za pomocą ankiet albo badań terenowych;
-                    <br>
-                    <b>2. Paper 1</b> - pytania dotyczące podanego case study, polega na analizie danych i całego problemu;
-                    <br>
-                    <b>3. Paper 2</b> - zadania sprawdzające wiedzę z przerobionego materiału oraz podanych na maturze danych.
-                </div>
-            </div>
-            <div class="info-block" id="bus">
-                <div class="info-title">Business Management</div>
-                <div class="info-short">
-                    Groupa: Group 3 Individuals and Societies <br>
-                    Poziom: SL/HL
-                </div>
-                <div class="info-content">
-                    Jako osoba, która miała problem z wybraniem przedmiotu z grupy 3, powiem, że nie żałuję wyboru businessu. Nie będę kłamać, jest to głównie pamięciówka, ale później to co się wkuwa na pamięć wykorzystujesz w różnych case studies, które opierają się na prawdziwych firmach. Jeśli planujesz założyć kiedyś business, to dwa lata tego przedmiotu w IB wiele Cię nauczą i pokażą szeroką gamę możliwości jeśli chodzi o prowadzenie swojego biznesu. Nawet jeśli nie wiążesz swojej przyszłości z biznesem, to i tak polecam ten przedmiot, ponieważ nie należy on do najtrudniejszych i wiele rzeczy można wziąć na logikę. Sylabus składa się z 5 działów: Introduction to Business Management, Human Resource Management, Finance, Marketing oraz Operations management. Do nauki i powtórek polecam obejrzeć sobie filmiki na YT tego oto osobliwego Pana: <a href="https://www.youtube.com/channel/UC9HFu8_O41AumRasboAvYMQ">@lewwinski</a>. Bardzo dobrze tłumaczy najważniejsze zagadnienia z danego tematu trzymając się wymagań sylabusa (<a href="https://dp.uwcea.org/docs/Business%20Management%20Subject%20Guide.pdf">link do sylabusa</a>), nie sprzedając Wam ogromu treści, które na egzaminie Wam się nie przydadzą. 
-                    <br><br>
-                    <b>Elementy matury:</b><br>
-                    <b>1. Interal Assessment </b>- Polecam przeczytać sobie artykuł/guide, dostępny na tej stronie: https://www.ibmastery.com/blog/the-business-management-ia-structure . On tłumaczy całą strukturę internala o wiele lepiej niż ja bym mogła Wam go wytłumaczyć. Tak w skrócie, jest to dość ważny element kursu, ponieważ stanowi on aż 30% oceny dla SL i 20% oceny dla HL. Jest to praca na max. 1800 słów, w której piszesz na wybrany sobie temat. 
-                    <br>
-                    <b>2. Paper 1</b> - Dwa miesiące przed egzaminami, IB udostępnia krótki fragment (ok.200 słów) z case study, które pojawi się w paper 1 na maturze (ten na maturze ma 800-1000 słów). Służy on do tego aby mniej więcej zapoznać się z tematyką paper 1 i móc przygotować się z zagadnień, które nie pojawiają się w syllabusie. W skrócie, IB daje wam taki sneak peek do tego co będzie na egzaminie, więc radzę z tego korzystać. Z klasą i nauczycielem będziecie omawiać je podczas lekcji powtórkowych przed egzaminem. Liczba punktów dla SL i HL: 30 punktów (35% oceny dla SL i 25% oceny dla HL). Czas dla SL i HL: 1h 30 min.               
-                    <br>
-                    <b>3. Paper 2</b> - W tej części egzaminu wiele pytań dotyczy obliczania czegoś lub wykorzystania innych umiejętności, których nauczyliście się podczas lekcji aby odpowiedzieć na pytania. Pod koniec jest zadanie, w którym trzeba napisać esej za 10 punktów. Liczba punktów: 40 punktów dla SL (35% oceny) i 50 punktów dla HL (30% oceny). Czas dla SL: 1h 30 min. Czas dla HL: 1h 45 min
-                    <br>
-                    <b>4. Paper 3 (tylko dla rozszerzenia)</b> - w tej części dostaniecie dłuższy tekst i kilka pytań do niego. Ostatnie pytanie jest za 17 punktów i polega na napisaniu dłuższego tekstu/eseju. Liczba punktów: 25% oceny. Czas: 1h 15 min
-                </div>
-            </div>
-            <div class="info-block" id="econ">
-                <div class="info-title">Economics</div>
-                <div class="info-short">
-                    Groupa: Group 3 Individuals and Societies <br>
-                    Poziom: SL/HL
-                </div>
-                <div class="info-content">
-                    Ekonomia na IB skupia się przede wszystkim na pokryciu tematów związanych z codziennym życiem od strony aspektu gospodarczego. Syllabus Ekonomii pokrywa trzy najważniejsze działy - Microeconomics, Macroeconomics i The Global Economy. W ramach każdego z tych działów dowiecie się więcej o funkcjonowaniu gospodarki i rynków - zarówno tych lokalnych jak i globalnych. Ekonomia jest bardzo praktycznym przedmiotem, ponieważ wszystko możecie odnieść do bieżących wydarzeń ze świata - warto śledzić wiadmości i informacje by zbierać wartościowe ‘real world examples’, które przydadzą się wam potem na maturze. Ekonomia, mimo że pełno w niej teorii, jest bardzo przyjemnym przedmiotem, i łatwo się jej nauczyć.
-                    <br><br>
-                    <b>Pro-tips:</b>
-                    - Pamiętaj o DDE i DDEE podczas pisania każdego eseju
-                    - Nie wstydź się spytać o pomoc, zarówno nauczyciel, jak i starsi koledzy z chęcią ci pomogą, oraz podpowiedzą jak najlepiej przygotować się do egzaminu
-                    - Ćwicz rysowanie wykresów w domu - bardzo pomoże ci to przy przygotowaniu do matury
-                    - Ekonomia ma w syllabusie wiele teorii, także ucz się metodami angażującymi twój umysł - możesz wypróbować fiszki, mapy myśli, czy technikę Feynmana (spróbuj wyjaśnić to, czego się nauczyłeś/aś, komuś, kto zupełnie nie zna tego przedmiotu)
-                    - Od pierwszej lekcji zbieraj ‘real world examples’ - czytaj wiadomości ze świata i zanurz się w newsach ekonomicznych - doda ci to pewności siebie na egzaminie
-                    - Pamiętaj o regularnym powtarzaniu materiału!
-                    <b>Resources:</b>
-                    - Syllabus z Ekonomii (tak, ten od IB) - dostępny na stronie IB czy u twojego nauczyciela - znajdziesz tam wszystko, o co mogą zapytać cię w trakcie egzaminu
-                    - thinkib.net - super strona z dokładnym omówieniem aspektów z syllabusa, oraz przykładowymi pytaniami
-                    - Crash Course Economics - świetny kanał na youtube z bardzo przydatnymi i łatwymi do zrozumienia wyjaśnieniami, do prawie każdego aspektu syllabusa
-                    <br><br>
-                    <b>Elementy matury:</b><br>
-                    <b>1. Interal Assessment </b>- Liczba punktów: max. 45 (42 za komentarze + 3 za tzw. ‘rubric requirements’, które wyjaśnimy później). Procent oceny: 30% dla SL, 20% dla HL. Liczba słów: max. 800 dla jednego komentarza - max. 2400 słów w sumie. W IA z Ekonomii analizujemy trzy artykuły - po jednym z każdego z najważniejszych działów. Wymagania są dość proste, ale jednak ograniczają dobór artykułów, które możemy wykorzystać przy pisaniu pracy. Artykuł musi zostać napisany max. 1 rok przed napisaniem komentarza - przykładowo, jesli komentarz piszesz 19 listopada 2024 roku, artykuły wchodzące w wymagania do IA musiały zostać wydane najpóźniej 19 listopada 2023 roku. Data wydania artykułu jest jednym z rubric requirements wspomnianych wcześniej. Pozostałe wymagania to: każdy artykuł musi dotyczyć innego działu syllabusa, oraz pochodzić z wiarygodnego źródła. Mówiąc ‘wiarygodne źródło’ mamy na myśli główne kanały informacyjne znane na całym świecie: przykładami mogą być ‘The Wall Street Journal’, ‘The New York Times’, ‘The Guardian’, ‘Le Monde’, czy ‘BBC World News’ albo ‘Euronews’. Z jakiegoś powodu IB nie patrzy za dobrze na artykuły z ‘The Economist’, ale jeśli użyjecie artykułu z tego źródła, nie powinno to wpłynąć na waszą ocenę zbyt mocno. 
-                    
-                    <br>
-                    <b>2. Paper 1</b> - Czas trwania: 1h 15 minut dla SL i HL. Ilość punktów: max. 25 punktów (10 pkt za jeden esej, 15 pkt za drugi). Procent oceny: 30% dla SL, 20% dla HL. Paper 1 polega na napisaniu dwóch esejów z różnych części syllabusa z Ekonomii. Mogą was zapytać o dosłownie wszystko co wymaga narysowania diagramu, także przed tym egzaminem koniecznie powtórzcie sobie wszystkie wykresy, które przerobiliście w trakcie trwania kursu. Dostajecie trzy pytania - każde z częścią a) (za 10 punktów) i b) (za 15 punktów). Na esej 10-punktowy możecie zastosować strategię DDE (definition, diagram, explanation) - polega ona na przejście przez esej najpierw definiując wszystkie pojęcia, których będziecie używać, narysowaniu wykresu, który pasuje wam do zagadnienia, i na koniec wyjaśnieniu co się na tym wykresie dzieje. W pierwszym eseju nie musicie stosować ‘real world example’, ale jeśli to zrobicie, to nic nie powinno się wydarzyć. Na drugi esej, strategia DDE staje się DDEE (definition, diagram, explanation, evaluation) + ‘real world example’. Przez tę strategię idziecie dokładnie tak samo jak przez tę na esej 10-punktowy, z tą różnicą, że w treść wplatacie przykłady zastosowania danego aspektu syllabusa, który omawiacie w eseju, w życiu codziennym, oraz dodajecie swoje przemyślenia na ten temat - to robicie pod koniec eseju. 
-                         
-                    <br>
-                    <b>3. Paper 2</b> - Czas trwania: 1h 45 minut dla SL i HL. Ilość punktów: max. 40 punktów. Procent oceny: 40% dla SL, 30% dla HL. Paper 2 sprawdzi waszą wiedzę używając case study. Na egzaminie dostaniecie dwa pytania z wieloma podpunktami, a waszym zadaniem będzie odpowiedzieć na jedno z nich. Jak wcześniej wspomniałam, pytanie ma formę case study, będącego najczęściej opisem gospodarki jednego z państw na świecie, lub dotyczyć będzie ostatnich wydarzeń i inwestycji w jakimś regionie świata. Spodziewajcie się państw dopiero rozwijających się, albo państw, które przeszły jakąś transformację ekonomiczną - generalnie, jest szansa, że zapytają o miejsce gdzie coś się ostatnio działo. Pytania na Paper 2 mają rozmaitą formę - od definiowania pojęć, do rysowania wykresów (co zdecydowanie robi się najczęściej), także pamiętajcie, żeby powtórzyć sobie dobrze, jaki wykres działa w jaki sposób - wtedy IB was tak bardzo nie zaskoczy. Na tym egzaminie najczęściej pytają o Global Economy i International Trade, albo Policies, także przed egzaminem warto powtórzyć sobie te działy z syllabusa.
-                    
-                    <br>
-                    <b>4. Paper 3 (tylko dla rozszerzenia)</b> - Czas trwania: 1h 45 minut. Ilość punktów: 60 punktów (po 30pkt za oba pytanie). Procent oceny: 30%. Paper 3 polega na odpowiedzeniu na dwa bardzo długie pytania głównie z części syllabusa przeznaczonej dla HL, ale podstawowa wiedza z SL także bardzo się wam przyda. Na tym egzaminie spotkacie się z wieloma pytaniami wymagającymi liczenia, dlatego będziecie mogli na niego zabrać swoje ukochane GDC. Ten egzamin skupia się na testowaniu wszystkiego co tylko możliwe w zakresie Ekonomii, spotkacie się na nim z mnóstwem tabel, diagramów, wypowiedziami ekspertów, itd. Jest to zdecydowanie najtrudniejsza część egzaminów z Ekonomii, dlatego warto się na nią dobrze przygotować. 
-                    
+                <div class="row info-content">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        <b>3. Arkusz drugi (Paper 2)</b><br>
+                        Na podstawie jednego z wybranych tematów piszecie krótką pracę w danym języku, mogą to być m.in. list, pocztówka czy mail.
+                    </div>
+                    <div class="col-sm-3">
+                        <b>-</b><br>
+                    </div>
+                    <div class="col-sm-1"></div>
                 </div>
             </div>
             <div class="transparent-block"></div>
-            <div class="info-block">
-                <div class="info-title" id="biol">Biology</div>
-                <div class="info-short">
-                    Groupa: Group 4 Experimental Sciences <br>
-                    Poziom: SL/HL
+            <div class="info-block container-fluid" id="geo">
+                <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7 info-title">Geography</div>
+                    <div class="col-sm-3 info-short">
+                        Groupa: Group 3 Individuals and Societies <br>
+                        Poziom: SL/HL
+                    </div>
                 </div>
-                <div class="info-content">
-                    Biologia w IB pokrywa wiele tematów, i jest napakowana wiedzą. Według mnie, jest ona bardzo ciekawym przedmiotem i szczerze polecam wszystkim, którym nie mają awersji do tego przedmiotu. Biologia jest dość trudnym przedmiotem, ale jak najbardziej do przetrwania, jeśli włoży się w nią trochę wysiłku i pracy. W przypadku biologii polecam uczyć się używając active methods, ponieważ jest naprawdę dużo do zapamiętania. Następnie, polecam również robić bardzo dużo zadań, aby zobaczyć jakiego typu zadań można się spodziewać na egzaminie i zidentyfikować tematy, czy zagadnienia, które trzeba powtórzyć. Jak znaleźć zadania? Szukaj question banks (np. Na stronie Revision Dojo czy od absolwentów, którzy na pewno mają dostęp do wielu zadań). Szukaj też dostępnych w internecie past papers. Jeśli masz problem z jakimś tematem polecam zajrzeć na YT (<a href="https://www.youtube.com/@cherylhickman6386">@cherylhickman6386</a> i <a href="https://www.youtube.com/@misterleescience">@misterleescience</a>).
-                    <br><br>
-                    <b>Elementy matury:</b><br>
-                    <b>1. Interal Assessment </b>- Liczba punktów: max. 24 punkty (20% końcowej oceny). Liczba stron: max 12. Z biologii można pisać tak zwanego “experimental-based IA”, który polega na tym, że projektujesz eksperyment, następnie wykonujesz go, a na sam koniec robisz z niego raport i analizę danych itd. Drugą opcją, choć zdecydowanie mniej popularną, jest “data-based/theoretical IA”, który polega na tym, że dane bierzesz z internetu i je analizujesz. Pisanie takiego teoretycznego, według wielu, jest trudniejsze, ponieważ trzeba zrobić go porządnie, gdyż IB dość surowo  je ocenia, bo zależy im abyś wykazał, że włożyłeś w niego dużo pracy, umiejętności analizowania i refleksji
-                    Często najcięższym elementem jest wybranie tematu swojego internala, ponieważ jest to zadania dość przytłaczające. Jeśli brakuje Ci pomysłów, wpisz w wujka Google “biology IA ideas” i zainspiruj się. Uwaga: nie zgapiaj całych tematów, traktuj to jako inspirację.Ja szczerze polecam zrobić eksperyment z jakimiś roślinami czy ziarnami, ponieważ  jest to wykonalne nawet w domu i nie należy do jakoś bardziej skomplikowanych. Schody dopiero się zaczną jak będzie trzeba potem zebrać dane i je przeanalizować, ale wszystko jest do pokonania, szczególnie jeśli ma się dobrego nauczyciela
-                    <br>
-                    <b>2. Paper 1</b> - W paper 1 mamy 30 pytań wielokrotnego wyboru dla SL, a dla HL 40 takich pytań.Podczas tego egzaminu jesteś pozostawiony samemu sobie, ponieważ nie masz dostępu do kalkulatora. Czas pisania: 45 min dla SL i 1h dla HL (średnio 1.5min/pytanie). Liczba punktów: 30 dla SL i 40 dla HL (20% oceny dla obu poziomów).
-                    
-                    <br>
-                    <b>3. Paper 2</b> - Jest to najdłuższa część egzaminu i, według wielu, najtrudniejsza. Polega na samych zadaniach otwartych, które potrafią być dość złożone i długie, ale też są takie przyjemniejsze. Tutaj już masz dostęp do kalkulatora. Radziłabym przed egzaminem dobrze zaznajomić się z tą kartą (gdzie mniej więcej co znajdziesz), żeby nie tracić czasu na szukanie podczas szukania. Paper 2 składa się z dwóch części: w części A znajdują się pytania otwarte, ale które wymagają krótszej wypowiedzi, natomiast w części B mamy pytania, które wymagają dłuższej wypowiedzi. Czas pisania: 1h 15min dla SL i 2h 15min dla HL. Liczba punktów: 50 dla SL (40% końcowej oceny) i 72 dla HL (36% końcowej oceny)
-                    
-                    <br>
-                    <b>4. Paper 3 (tylko dla rozszerzenia)</b> - Paper 3 składa się z dwóch części: część A zawiera pytania dotyczące eksperymentów i umiejętności analizowania danych. Część B składa się z pytań o jednego z opcji, które wybrałeś: Neurobiology and Behaviour, Biotechnology and Bioinformatics, Ecology and Conservation, Human physiology. Czas: 1h dla SL i 1h 15min dla HL. Liczba punktów:35 dla SL (20% końcowej oceny) i 45 dla HL (24% końcowej oceny).
-                    
+                <div class="row short-desc">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        Na IB geografia jest bardziej społeczna niż fizyczna, stawia się na procesy w społeczeństwach na całym świecie niż na geologię. Jest to dość prosty i przyjemny przedmiot, który na podstawie prawdziwych przykładów z całego świata pokaże Wam wszechobecne problemy związane z m.in. globalnym ociepleniem czy urbanizacją, przedstawi też różne rozwiązania i perspektywy. Musicie znać tzw. case studies, czyli właśnie przykłady omawianych procesów ze świata. 	
+                </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <br>
+                <div class="row top-row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">Część egzaminu</div>
+                    <div class="col-sm-3">Długość</div>
+                </div>
+                <div class="row info-content">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        <b>1. Internal Assessment (FIeldwork)</b><br>
+                        Praca badawcza mająca maksymalnie 2500 słów, w której zajmujecie się jakimś geograficznym zjawiskiem i za pomocą badań terenowych, a później map i wykresów piszecie jego analizę w wyznaczonym przez siebie miejscu;
+                    </div>
+                    <div class="col-sm-3">
+                        <b>-</b><br>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <div class="row info-content">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        <b>2. Arkusz pierwszy (Paper 1)</b><br>
+                        Pytania dotyczą options, dwóch na podstawie i trzech na rozszerzeniu; na odpowiedzi na którkie pytania oraz jeden esej z każdej z opcji;
+                    </div>
+                    <div class="col-sm-3">
+                        <b>1 godzina 30 minut (SL) lub 2 godziny 15 minut (HL)</b><br>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <div class="row info-content">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        <b>3. Arkusz drugi (Paper 2)</b><br>
+                        Sprawdza znajomość obowiązkowej części materiału (tzw. core), czyli trzech działów;
+                    </div>
+                    <div class="col-sm-3">
+                        <b>1 godzina 15 minut</b><br>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <div class="row info-content">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        <b>4. Paper 3 (tylko dla rozszerzenia)</b><br>
+                        Dłuższe zadania dotyczące pozostałych trzech działów;
+                    </div>
+                    <div class="col-sm-3">
+                        <b>1 godzina</b><br>
+                    </div>
+                    <div class="col-sm-1"></div>
                 </div>
             </div>
-            <div class="info-block" id="chem">
-                <div class="info-title">Chemistry</div>
-                <div class="info-short">
-                    Groupa: Group 4 Experimental Sciences <br>
-                    Poziom: SL/HL
+            <div class="info-block container-fluid" id="hist">
+                <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7 info-title">History</div>
+                    <div class="col-sm-3 info-short">
+                        Groupa: Group 3 Individuals and Societies <br>
+                        Poziom: SL/HL
+                    </div>
                 </div>
-                <div class="info-content">
-                    Chemia do najłatwiejszych nie należy, ale jest to ogarnięcia, jeśli tylko jesteś gotowy włożyć w nią trochę pracy. Syllabus składa się z 11 działów + option dla SL i z 21 działów + option dla HL. Nacisk kładzie się również na zajęcia w labie. Aby dobrze zdać chemię, koniecznym jest aby robić jak najwięcej zadań. Jak je znaleźć? Szukaj question banks (np. Na stronie Revision Dojo czy od absolwentów, którzy na pewno mają dostęp do wielu zadań). Szukaj też dostępnych w internecie past papers i rozwiązuj je i ucz się na swoich błędach. Jeśli masz problem z jakimś tematem polecam zajrzeć na YT (np <a href="https://www.youtube.com/@MSJChem">@MSJChem</a>, <a href="https://www.youtube.com/results?search_query=%40ibchemvids">@ibchemvids</a> czy <a href="https://www.youtube.com/@AndrewWeng">@AndrewWeng</a>)
-
-                    <br><br>
-                    <b>Elementy matury:</b><br>
-                    <b>1. Interal Assessment </b>- Liczba punktów: 20% ostatecznej oceny. Liczba stron: max.12. Z chemi można pisać tak zwanego “experimental-based IA”, który polega na tym, że projektujesz eksperyment, następnie wykonujesz go, a na sam koniec robisz z niego raport i analizę danych itd. Drugą opcją, choć zdecydowanie mniej popularną, jest “data-based/theoretical IA”, który polega na tym, że dane bierzesz z internetu i je analizujesz. Pisanie takiego teoretycznego, według wielu, jest trudniejsze, ponieważ trzeba zrobić go porządnie, gdyż IB dość surowo  je ocenia, bo zależy im abyś wykazał, że włożyłeś w niego dużo pracy, umiejętności analizowania i refleksji
-                    Często najcięższym elementem jest wybranie tematu swojego internala, ponieważ jest to zadania dość przytłaczające. Jeśli brakuje Ci pomysłów, wpisz w wujka Google “chemistry IA ideas” i zainspiruj się. Uwaga: nie zgapiaj całych tematów, traktuj to jako inspirację.
-                    
-                    <br>
-                    <b>2. Paper 1</b> - W paper 1 mamy 30 pytań wielokrotnego wyboru dla SL, a dla HL 40 takich pytań.Podczas tego egzaminu jesteś pozostawiony samemu sobie, ponieważ nie masz dostępu ani do kalkulatory, ani do karty wzorów itd. Dostaniesz tylko niezastąpioną tablicę Mendelejewa. Czas pisania: 45 min dla SL i 1h dla HL (średnio 1.5min/pytanie).Liczba punktów: 30 dla SL i 40 dla HL (20% oceny dla obu poziomów).
-                    
-                    
-                    <br>
-                    <b>3. Paper 2</b> - Jest to najdłuższa część egzaminu i, według wielu, najtrudniejsza. Polega na samych zadaniach otwartych, które potrafią być dość złożone i długie, ale też są takie przyjemniejsze. Tutaj już masz dostęp do kalkulatora i karty wzorów. Radziłabym przed egzaminem dobrze zaznajomić się z tą kartą (gdzie mniej więcej co znajdziesz), żeby nie tracić czasu na szukanie podczas szukania. Czas pisania: 1h 15min dla SL i 2h 15min dla HL.Liczba punktów: 50 dla HL (40% końcowe oceny) i 90 dla HL (36% końcowej oceny)
-                    
-                    
-                    <br>
-                    <b>4. Paper 3 (tylko dla rozszerzenia)</b> - Paper 3 składa się z dwóch części: część A zawiera pytania dotyczące eksperymentów i umiejętności analizowania danych. Część B składa się z pytań o jednego z opcji, które wybrałeś: Materials, Biochemistry, Energy, Medicinal chemistry. Czas: 1h dla SL i 1h 15min dla HL. Liczba punktów:35 dla SL (20% końcowej oceny) i 45 dla HL (24% końcowej oceny).
-                    
-                    
+                <div class="row short-desc">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        Historia na IB pozwoli Wam zobaczyć różne perspektywy na niektóre wydarzenia lub postaci historyczne, skupiając się na przyczynach, skutkach, procesach - zrozumieniu wydarzeń, a nie wkuwaniu dat na pamięć bez większego ładu i składu. Nie uczycie się całej historii świata albo danego kraju, zajmujecie się konkretnym zagadnieniem w danym okresie, np. autorytaryzm albo wojny w XX wieku, i robicie to dosyć dogłębnie.	
                 </div>
+                    <div class="col-sm-1"></div>
                 </div>
-                <div class="info-block">
-                    <div class="info-title">Environmental Systems and Societies (zobacz <a href="#ess">ESS</a>)</div>
-                    <div class="info-short">
-                        Groupa: Group 4 Experimental Sciences <br>
+                <br>
+                <div class="row top-row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">Część egzaminu</div>
+                    <div class="col-sm-3">Długość</div>
+                </div>
+                <div class="row info-content">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        <b>1. Historical Investigation</b><br>
+                        Praca badawcza na wybrany przez Was temat, z jej pomocą uczycie się oceniać wartość dostępnych źródeł oraz jak pomiędzy nimi wybierać;
+                    </div>
+                    <div class="col-sm-3">
+                        <b>-</b><br>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <div class="row info-content">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        <b>2. Arkusz pierwszy (Paper 1)</b><br>
+                        Odpowiedzi na pytania związane z analizą dołączonych materiałów;
+                    </div>
+                    <div class="col-sm-3">
+                        <b>1 godzina</b><br>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <div class="row info-content">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        <b>3. Arkusz drugi (Paper 2)</b><br>
+                        Polega na napisaniu esejów o fragmentach historii świata;
+                    </div>
+                    <div class="col-sm-3">
+                        <b>1 godzina 30 minut</b><br>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <div class="row info-content">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        <b>4. Paper 3 (tylko dla rozszerzenia)</b><br>
+                        Składa się z kilku esejów związanych z historią danego regionu świata (np. Afryki albo Europy);
+                    </div>
+                    <div class="col-sm-3">
+                        <b>2 godziny 15 minut</b><br>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+            <div class="info-block container-fluid" id="ess">
+                <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7 info-title">Environmental Systems and Societies</div>
+                    <div class="col-sm-3 info-short">
+                        Groupa: Group 3 Individuals and Societies <br>
                         Poziom: SL
                     </div>
                 </div>
-                <div class="info-block" id="comp">
-                    <div class="info-title">Computer Science</div>
-                    <div class="info-short">
+                <div class="row short-desc">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        ESS jest ciekawym przedmiotem, który jako jedyny jednocześnie znajduje się w dwóch grupach - trzeciej i czwartej. Jest czymś pomiędzy geografią i biologią, a do tego jest raczej prosty i przyjemny, często wybierany jako coś z Sciences, jako że jest mniej wymagający od pozostałych.
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <br>
+                <div class="row top-row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">Część egzaminu</div>
+                    <div class="col-sm-3">Długość</div>
+                </div>
+                <div class="row info-content">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        <b>1. Internal Assessment</b><br>
+                        Praca, w której badacie coś związanego z materiałem, np. za pomocą ankiet albo badań terenowych;
+                    </div>
+                    <div class="col-sm-3">
+                        <b>Maksymalnie 3000 słów</b><br>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <div class="row info-content">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        <b>2. Arkusz pierwszy (Paper 1)</b><br>
+                        Pytania dotyczące podanego case study, polega na analizie danych i całego problemu;
+                    </div>
+                    <div class="col-sm-3">
+                        <b></b><br>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <div class="row info-content">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        <b>3. Arkusz drugi (Paper 2)</b><br>
+                        Zadania sprawdzające wiedzę z przerobionego materiału oraz podanych na maturze danych.
+                    </div>
+                    <div class="col-sm-3">
+                        <b></b><br>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+            <div class="info-block container-fluid" id="bus">
+                <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7 info-title">Business Management</div>
+                    <div class="col-sm-3 info-short">
+                        Groupa: Group 3 Individuals and Societies <br>
+                        Poziom: SL/HL
+                    </div>
+                </div>
+                <div class="row short-desc">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        Jako osoba, która miała problem z wybraniem przedmiotu z grupy 3, powiem, że nie żałuję wyboru businessu. Nie będę kłamać, jest to głównie pamięciówka, ale później to co się wkuwa na pamięć wykorzystujesz w różnych case studies, które opierają się na prawdziwych firmach. Jeśli planujesz założyć kiedyś business, to dwa lata tego przedmiotu w IB wiele Cię nauczą i pokażą szeroką gamę możliwości jeśli chodzi o prowadzenie swojego biznesu. Nawet jeśli nie wiążesz swojej przyszłości z biznesem, to i tak polecam ten przedmiot, ponieważ nie należy on do najtrudniejszych i wiele rzeczy można wziąć na logikę. Sylabus składa się z 5 działów: Introduction to Business Management, Human Resource Management, Finance, Marketing oraz Operations management. Do nauki i powtórek polecam obejrzeć sobie filmiki na YT tego oto osobliwego Pana: <a class="link-secondary" href="https://www.youtube.com/channel/UC9HFu8_O41AumRasboAvYMQ">@lewwinski</a>. Bardzo dobrze tłumaczy najważniejsze zagadnienia z danego tematu trzymając się wymagań sylabusa (<a class="link-secondary" href="https://dp.uwcea.org/docs/Business%20Management%20Subject%20Guide.pdf">link do sylabusa</a>), nie sprzedając Wam ogromu treści, które na egzaminie Wam się nie przydadzą. 
+                </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <br>
+                <div class="row top-row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">Część egzaminu</div>
+                    <div class="col-sm-3">Długość</div>
+                </div>
+                <div class="row info-content">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        <b>1. Interal Assessment </b><br>
+                        Polecam przeczytać sobie artykuł/guide, dostępny na tej stronie: <a class="link-secondary" href="https://www.ibmastery.com/blog/the-business-management-ia-structure">IA Structure</a>. On tłumaczy całą strukturę internala o wiele lepiej niż ja bym mogła Wam go wytłumaczyć. Tak w skrócie, jest to dość ważny element kursu, ponieważ stanowi on aż 30% oceny dla SL i 20% oceny dla HL.
+                    </div>
+                    <div class="col-sm-3">
+                        <b>Maksymalnie 1800 słów</b><br>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <div class="row info-content">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        <b>2. Arkusz pierwszy (Paper 1)</b><br>
+                        Dwa miesiące przed egzaminami, IB udostępnia krótki fragment (ok.200 słów) z case study, które pojawi się w paper 1 na maturze (ten na maturze ma 800-1000 słów). Służy on do tego aby mniej więcej zapoznać się z tematyką paper 1 i móc przygotować się z zagadnień, które nie pojawiają się w syllabusie. W skrócie, IB daje wam taki sneak peek do tego co będzie na egzaminie, więc radzę z tego korzystać. Z klasą i nauczycielem będziecie omawiać je podczas lekcji powtórkowych przed egzaminem. Liczba punktów dla SL i HL: 30 punktów (35% oceny dla SL i 25% oceny dla HL).         
+                    </div>
+                    <div class="col-sm-3">
+                        <b>1 godzina 30 minut</b><br>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <div class="row info-content">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        <b>3. Arkusz drugi (Paper 2)</b><br>
+                        W tej części egzaminu wiele pytań dotyczy obliczania czegoś lub wykorzystania innych umiejętności, których nauczyliście się podczas lekcji aby odpowiedzieć na pytania. Pod koniec jest zadanie, w którym trzeba napisać esej za 10 punktów. Liczba punktów: 40 punktów dla SL (35% oceny) i 50 punktów dla HL (30% oceny). Czas dla SL: 1h 30 min. Czas dla HL: 1h 45 min
+                    </div>
+                    <div class="col-sm-3">
+                        <b>1 godzina 30 minut (SL) lub 1 godzina 45 minut (HL)</b><br>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <div class="row info-content">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        <b>4. Paper 3 (tylko dla rozszerzenia)</b><br>
+                        w tej części dostaniecie dłuższy tekst i kilka pytań do niego. Ostatnie pytanie jest za 17 punktów i polega na napisaniu dłuższego tekstu/eseju. Liczba punktów: 25% oceny.
+                    </div>
+                    <div class="col-sm-3">
+                        <b>1 godzina 15 minut</b><br>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+            <div class="info-block container-fluid" id="econ">
+                <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7 info-title">Economics</div>
+                    <div class="col-sm-3 info-short">
+                        Groupa: Group 3 Individuals and Societies <br>
+                        Poziom: SL/HL
+                    </div>
+                </div>
+                <div class="row short-desc">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        Ekonomia na IB skupia się przede wszystkim na pokryciu tematów związanych z codziennym życiem od strony aspektu gospodarczego. Syllabus Ekonomii pokrywa trzy najważniejsze działy - Microeconomics, Macroeconomics i The Global Economy. W ramach każdego z tych działów dowiecie się więcej o funkcjonowaniu gospodarki i rynków - zarówno tych lokalnych jak i globalnych. Ekonomia jest bardzo praktycznym przedmiotem, ponieważ wszystko możecie odnieść do bieżących wydarzeń ze świata - warto śledzić wiadmości i informacje by zbierać wartościowe ‘real world examples’, które przydadzą się wam potem na maturze. Ekonomia, mimo że pełno w niej teorii, jest bardzo przyjemnym przedmiotem, i łatwo się jej nauczyć.<br>
+                        <b>Pro-tips:</b><br>
+                        - Pamiętaj o DDE i DDEE podczas pisania każdego eseju <br>
+                        - Nie wstydź się spytać o pomoc, zarówno nauczyciel, jak i starsi koledzy z chęcią ci pomogą, oraz podpowiedzą jak najlepiej przygotować się do egzaminu<br>
+                        - Ćwicz rysowanie wykresów w domu - bardzo pomoże ci to przy przygotowaniu do matury<br>
+                        - Ekonomia ma w syllabusie wiele teorii, także ucz się metodami angażującymi twój umysł - możesz wypróbować fiszki, mapy myśli, czy technikę Feynmana (spróbuj wyjaśnić to, czego się nauczyłeś/aś, komuś, kto zupełnie nie zna tego przedmiotu)<br>
+                        - Od pierwszej lekcji zbieraj ‘real world examples’ - czytaj wiadomości ze świata i zanurz się w newsach    ekonomicznych - doda ci to pewności siebie na egzaminie<br>
+                        - Pamiętaj o regularnym powtarzaniu materiału!<br>
+                        <b>Resources:</b>
+                        - Syllabus z Ekonomii (tak, ten od IB) - dostępny na stronie IB czy u twojego nauczyciela - znajdziesz tam  wszystko, o co mogą zapytać cię w trakcie egzaminu<br>
+                        - thinkib.net - super strona z dokładnym omówieniem aspektów z syllabusa, oraz przykładowymi pytaniami<br>
+                        - Crash Course Economics - świetny kanał na youtube z bardzo przydatnymi i łatwymi do zrozumienia wyjaśnieniami, do prawie każdego aspektu syllabusa<br>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <br>
+                <div class="row top-row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">Część egzaminu</div>
+                    <div class="col-sm-3">Długość</div>
+                </div>
+                <div class="row info-content">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        <b>1. Interal Assessment </b><br>
+                        Liczba punktów: max. 45 (42 za komentarze + 3 za tzw. ‘rubric requirements’, które wyjaśnimy później). Procent oceny: 30% dla SL, 20% dla HL. Liczba słów: max. 800 dla jednego komentarza. W IA z Ekonomii analizujemy trzy artykuły - po jednym z każdego z najważniejszych działów. Wymagania są dość proste, ale jednak ograniczają dobór artykułów, które możemy wykorzystać przy pisaniu pracy. Artykuł musi zostać napisany max. 1 rok przed napisaniem komentarza - przykładowo, jesli komentarz piszesz 19 listopada 2024 roku, artykuły wchodzące w wymagania do IA musiały zostać wydane najpóźniej 19 listopada 2023 roku. Data wydania artykułu jest jednym z rubric requirements wspomnianych wcześniej. Pozostałe wymagania to: każdy artykuł musi dotyczyć innego działu syllabusa, oraz pochodzić z wiarygodnego źródła. Mówiąc ‘wiarygodne źródło’ mamy na myśli główne kanały informacyjne znane na całym świecie: przykładami mogą być ‘The Wall Street Journal’, ‘The New York Times’, ‘The Guardian’, ‘Le Monde’, czy ‘BBC World News’ albo ‘Euronews’. Z jakiegoś powodu IB nie patrzy za dobrze na artykuły z ‘The Economist’, ale jeśli użyjecie artykułu z tego źródła, nie powinno to wpłynąć na waszą ocenę zbyt mocno. 
+                    </div>
+                    <div class="col-sm-3">
+                        <b>Maksymalnie 2400 słów</b><br>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <div class="row info-content">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        <b>2. Arkusz pierwszy (Paper 1)</b><br>
+                        Ilość punktów: max. 25 punktów (10 pkt za jeden esej, 15 pkt za drugi). Procent oceny: 30% dla SL, 20% dla HL. Paper 1 polega na napisaniu dwóch esejów z różnych części syllabusa z Ekonomii. Mogą was zapytać o dosłownie wszystko co wymaga narysowania diagramu, także przed tym egzaminem koniecznie powtórzcie sobie wszystkie wykresy, które przerobiliście w trakcie trwania kursu. Dostajecie trzy pytania - każde z częścią A (za 10 punktów) i B (za 15 punktów). Na esej 10-punktowy możecie zastosować strategię DDE (definition, diagram, explanation) - polega ona na przejście przez esej najpierw definiując wszystkie pojęcia, których będziecie używać, narysowaniu wykresu, który pasuje wam do zagadnienia, i na koniec wyjaśnieniu co się na tym wykresie dzieje. W pierwszym eseju nie musicie stosować ‘real world example’, ale jeśli to zrobicie, to nic nie powinno się wydarzyć. Na drugi esej, strategia DDE staje się DDEE (definition, diagram, explanation, evaluation) + ‘real world example’. Przez tę strategię idziecie dokładnie tak samo jak przez tę na esej 10-punktowy, z tą różnicą, że w treść wplatacie przykłady zastosowania danego aspektu syllabusa, który omawiacie w eseju, w życiu codziennym, oraz dodajecie swoje przemyślenia na ten temat - to robicie pod koniec eseju.  
+                    </div>
+                    <div class="col-sm-3">
+                        <b>1 godzina 15 minut</b><br>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <div class="row info-content">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        <b>3. Arkusz drugi (Paper 2)</b><br>
+                        Ilość punktów: max. 40 punktów. Procent oceny: 40% dla SL, 30% dla HL. Paper 2 sprawdzi waszą wiedzę używając case study. Na egzaminie dostaniecie dwa pytania z wieloma podpunktami, a waszym zadaniem będzie odpowiedzieć na jedno z nich. Jak wcześniej wspomniałam, pytanie ma formę case study, będącego najczęściej opisem gospodarki jednego z państw na świecie, lub dotyczyć będzie ostatnich wydarzeń i inwestycji w jakimś regionie świata. Spodziewajcie się państw dopiero rozwijających się, albo państw, które przeszły jakąś transformację ekonomiczną - generalnie, jest szansa, że zapytają o miejsce gdzie coś się ostatnio działo. Pytania na Paper 2 mają rozmaitą formę - od definiowania pojęć, do rysowania wykresów (co zdecydowanie robi się najczęściej), także pamiętajcie, żeby powtórzyć sobie dobrze, jaki wykres działa w jaki sposób - wtedy IB was tak bardzo nie zaskoczy. Na tym egzaminie najczęściej pytają o Global Economy i International Trade, albo Policies, także przed egzaminem warto powtórzyć sobie te działy z syllabusa.
+                    </div>
+                    <div class="col-sm-3">
+                        <b>1 godzina 45 minut</b><br>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <div class="row info-content">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        <b>4. Paper 3 (tylko dla rozszerzenia)</b><br>
+                        Ilość punktów: 60 punktów (po 30pkt za oba pytanie). Procent oceny: 30%. Paper 3 polega na odpowiedzeniu na dwa bardzo długie pytania głównie z części syllabusa przeznaczonej dla HL, ale podstawowa wiedza z SL także bardzo się wam przyda. Na tym egzaminie spotkacie się z wieloma pytaniami wymagającymi liczenia, dlatego będziecie mogli na niego zabrać swoje ukochane GDC. Ten egzamin skupia się na testowaniu wszystkiego co tylko możliwe w zakresie Ekonomii, spotkacie się na nim z mnóstwem tabel, diagramów, wypowiedziami ekspertów, itd. Jest to zdecydowanie najtrudniejsza część egzaminów z Ekonomii, dlatego warto się na nią dobrze przygotować. 
+                    </div>
+                    <div class="col-sm-3">
+                        <b>1 godzina 45 minut</b><br>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+            <div class="transparent-block"></div>
+            <div class="info-block container-fluid" id="bio">
+                <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7 info-title">Biology</div>
+                    <div class="col-sm-3 info-short">
                         Groupa: Group 4 Experimental Sciences <br>
                         Poziom: SL/HL
                     </div>
-                    <div class="info-content">
-                        Jest to przedmiot idealny dla osób chcących podążać ścieżką korposzczura (żartuję, ale CompSci bardzo dobrze przygotuje was do intensywnej pracy w firmie, gdzie musicie testować i programować) lub chcących mieć pracę na kontrakcie, którą mogą wykonywać z jakiegokolwiek miejsca na świecie. Computer Science, albo w skrócie CS, jest standardową informatyką - z taką różnicą, że programowania używacie bardzo często, a działy o organizacji komputerowej nie są aż tak ważne. Jeśli chcesz nauczyć się biegle programować i rozwiązywać zadania logiczne, ten przedmiot jest zdecydowanie dla ciebie. Wbrew pozorom jednak, nie jest to przedmiot łatwy, i nie każdy będzie w stanie poradzić sobie z dużym nakładem pracy, jaki prezentuje przed nami kurs - mowa tutaj głównie o Internal Assessment, które jest bardzo długie i skomplikowane - jest uważane za najtrudniejsze IA (lub jedno z najtrudniejszych) w całym IB. <br> 
-                        <b>Pro-tips:</b>
-                        - Przeróbcie dużo past papers i dobrze zapoznajcie się z markschemes<br>
-                        - Zróbcie kurs programowania przed rozpoczęciem nauki w IB - ułatwi wam to realizację internala<br>
-                        - Ćwiczcie wasze umiejętności myślenia algorytmicznego - ułatwi wam to konstruowanie kodu na maturze<br>
-                        - Nie skupiajcie się na teorii całego kursu aż tak bardzo - wystarczy wam wiedzieć około 30% - bo to samo 30% zazwyczaj pojawia się na maturze - dlatego tak ważne są past papers!<br>
-                        - Jeśli chodzi o przygotowanie na Paper 3 - w internecie znajdziecie mnóstwo resources - wystarczy, że wpiszecie ‘paper 3 computer science preparation’ a dodatkowe wskazówki i przykładowe pytania wyskoczą wam same<br>
-                        <b>Resources:</b>
-                        - Syllabus i past papers - najlepszy sposób na zobaczenie z czego mogą pojawić się pytania, oraz z czego najczęściej będziecie egzaminowani<br>
-                        - Computer Science Wiki - strona wyjaśniająca wszystkie zagadnienia z syllabusa, oraz mająca wiele przydatnych wskazówek jeśli chodzi o internal assessment<br>
-
-
-    
-                        <br><br>
-                        <b>Elementy matury:</b><br>
-                        <b>1. Interal Assessment </b>- Typ: Solution. Liczba punktów: max. 34 punkty. Procent oceny: 30% dla SL, 20% dla HL. Liczba słów: max. 2000. Jak już się trochę tego internala boicie - to bardzo dobrze, ja też się bałam. Internal dzieli się na 5 części i 2 appendixy - w najbardziej standardowej formie, podanej przez IB. Za części A, B i E możecie dostać po 6 punktów, za część C - max. 12, a za część D - max. 4 punkty. 
-                        Internal polega na przedstawieniu działającego produktu - programu napisanego dla określonego klienta. Żeby dobrze wam ten internal poszedł, znajdźcie sobie klienta, który będzie dla was często dostępny, lub takiego, który da wam wolną rękę. W ramach IA możecie zaprogramować bazę danych, grę, stronę internetową - właściwie wszystko do czego jesteście zmuszeni użyć programowania i jesteście w stanie zrobić do tego dokumentację. Poniżej omówię wszystkie części internala - trochę ich jest, więc przygotujcie się na czytanie długiego tekstu.
-                        <br> 
-                        Część A - Planowanie - w części A przedstawiacie swojego klienta, produkt jaki chcecie mu zaprogramować, lub produkt o jaki klient poprosił. W tej części zbieracie wszystkie wymagania co do produktu, i krótko je opisujecie. Przedstawiacie także krótki opis tego, jak zamierzacie się za realizację pomysłu klienta zabrać. Wszystko zwieńczacie appendixem, który ma formę pierwszego wywiadu z klientem. 
-                        <br>
-                        Część B - Record of Tasks i Design - w części B prezentujecie wykaz zadań, które musicie wykonać, by skompletować cały produkt. Opisujecie wszystko co robicie, jak najdokładniej się da. Pamiętajcie także o uwzględnieniu planu testów i funkcji, których używacie w programie. Na koniec rysujecie flowcharty i waszą wizję produktu - czyli to, jak według was produkt powinien wyglądać w końcowej wersji. 
-                        <br>
-                        Część C - Dokumentacja i Produkt - tutaj zaczyna się zabawa, bo zaczyna się pisanie i testowanie produktu. Wszystkie wasze umiejętności programistyczne (oraz wasza cierpliwość) zostaną sprawdzone przy procesie pisania produktu. Polecam wam zacząć z produktem dużo wcześniej - da wam to możliwość manewrowania czasem (mimo, że IB mówi, że na IA powinno się przeznaczyć około 30h - liczcie sobie co najmniej 100h pracy na internala z CS). Kiedy skończycie pisać produkt, zaczynacie dokumentację - opis wszystkich technik programistycznych, które zostały użyte w waszym produkcie. Pamiętajcie, żeby nie przekroczyć limitu słów, bo inaczej moderator nie przeczyta wam części E!
-                        <br>
-                        Część D - Prezentacja produktu - czyli najbardziej znienawidzona (wbrew pozorom) część internala z CS. Polega ona na nagraniu filmiku instruktażowego o waszym programie. Pokazujecie wszystkie funkcjonalności programu, jak działa, jak go obsługiwać, itp. Filmik będzie miał około 5 minut - ale nagrywając go i montując, spędzicie od 3 do 5h przy ekranie - przygotujcie sobie więc coś na osłodzenie waszego zwycięstwa nad internalem.
-                        <br>
-                        Część E- Ewaluacja - bardzo przyjemna część, polega na powrocie do części A i zreflektowaniu się nad tym jak źle albo dobrze poszła wam praca nad produktem. Patrzycie które wymagania zostały zrealizowane, a które nie. Przeprowadzacie także ostatni wywiad z klientem (drugi Appendix) i zbieracie feedback odnośnie tego, co w nastepnej wersji produktu można poprawić.
-                        
-                        
-                        <br>
-                        <b>2. Paper 1</b> - Czas trwania: 1h 30 minut dla SL i 2h 10 minut dla HL. Ilość punktów: max. 70 punktów dla SL i max. 100 punktów dla HL. Procent oceny: 45% dla SL, 40% dla HL. Podczas Paper 1 zostanie sprawdzony każdy aspekt z twojej wiedzy z syllabusa do CS. Paper 1 jest tak naprawdę jedynym egzaminem, na który potrzebna ci jest wiedza z podstawowego syllabusa - po przeczytaniu następnych sekcji zrozumiesz dlaczego. Paper 1 składa się z dwóch sekcji - A i B. W sekcji A są pytania z kategorii bardziej definicji, przeliczania systemów liczbowych, lub bardzo podstawowa teoria. Osobiście, moim ulubionym pytaniem z sekcji A jest ‘define beta testing’, powtarzające się na średnio co drugim egzaminie (jeśli ktoś obudziłby mnie w nocy i spytał czym jest beta testing, nie musiałabym się nawet zastanawiać). W sekcji B spotkacie trudniesze, bardziej rozbudowane pytania - średnio 3 opisowe i 2 z kategorii ‘napisz pseudokod’. W opisowych pytaniach zostaniecie zapytani o rozwiązania implementowane dla firm, oraz teoretyczne sytuacje mogące zdarzyć się w prawdziwym życiu. W pytaniach na myślenie algorytmiczne, zostanie wam przedstawiony krótki problem, waszym zadaniem jest napisać kod, lub zaproponować rozwiązanie zgodnie z treścią pytania. IB bardzo lubi powtarzać pytania na Paper 1, dlatego najlepszą strategią jest po prostu przerobienie jak największej ich ilości. 
-                        
-                        
-                        
-                        <br>
-                        <b>3. Paper 2</b> - Czas trwania: 1h dla SL i 1h 20 minut dla HL. Ilość punktów: max. 45 punktów dla SL i max. 65 punktów dla HL. Procent oceny: 25% dla SL, 20% dla HL. Ten egzamin sprawdzi waszą wiedzę z opcji - dodatku do standardowego syllabusa. Możecie wybrać którą część egzaminu chcecie rozwiązać. Dostępne są:
-                        <br>
-                        Databases (wiedza dotycząca baz danych, jedna z prostszych dostępnych opcji)
-                        <br>
-                        Modelling and Simulation (wszystko dotyczące modelowania, symulacji, uczenia maszynowego i grafiki 3D)
-                        <br>
-                        Web Science (wszystko o stronach komputerowych)
-                        <br>
-                        Object-Oriented Programming (OOP - testowanie wiedzy z Javy i konstruowania kodu)
-                        <br>
-                        W pierwszych trzech opcjach, wiedza o konstruowaniu kodu nie jest potrzebna i nie będzie testowana - pytania będą stricte teoretyczne. W opcji OOP, będzie od was wymagane stworzenie kodu i jego interpretowanie - dlatego ostatnia opcja jest uważana przez niektórych za najtrudniejszą i najbardziej wymagającą. Najlepszym sposobem na przygotowanie się do tego egzaminu jest znowu, rozwiązanie jak największej ilości past papers. 
-                        
-                        
-                        
-                        <br>
-                        <b>4. Paper 3 (tylko dla rozszerzenia)</b> - Czas trwania: 1h. Ilość punktów: max. 30 punktów. Procent oceny: 20%. W trzecim egzaminie z CS macie do czynienia z case study, które jest wypuszczane przez IB we wrześniu, w roku szkolnym w którym egzamin będziecie zdawać. Na tym paperze spotkacie się z rozmaitymi pytaniami dotyczącymi treści case study, możecie być zapytani o przeanalizowanie jakiejś części, lub o swoją opinię na temat problemu i rozwiązań proponowanych przez IB. Warto wspomnieć, że na ten egzamin możecie mieć ze sobą kopię waszego case study, także nie musicie niczego pamiętać - ważne jest jednak, żeby dokładnie przeanalizować jego treść i dobrze znać case study - co zaoszczędzi wam czasu na egzaminie.
-                        
-                        
+                </div>
+                <div class="row short-desc">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        Biologia w IB pokrywa wiele tematów, i jest napakowana wiedzą. Według mnie, jest ona bardzo ciekawym przedmiotem i szczerze polecam wszystkim, którym nie mają awersji do tego przedmiotu. Biologia jest dość trudnym przedmiotem, ale jak najbardziej do przetrwania, jeśli włoży się w nią trochę wysiłku i pracy. W przypadku biologii polecam uczyć się używając active methods, ponieważ jest naprawdę dużo do zapamiętania. Następnie, polecam również robić bardzo dużo zadań, aby zobaczyć jakiego typu zadań można się spodziewać na egzaminie i zidentyfikować tematy, czy zagadnienia, które trzeba powtórzyć. Jak znaleźć zadania? Szukaj question banks (np. Na stronie Revision Dojo czy od absolwentów, którzy na pewno mają dostęp do wielu zadań). Szukaj też dostępnych w internecie past papers. Jeśli masz problem z jakimś tematem polecam zajrzeć na YT (<a class="link-secondary" href="https://www.youtube.com/@cherylhickman6386">@cherylhickman6386</a> i <a class="link-secondary" href="https://www.youtube.com/@misterleescience">@misterleescience</a>).
                     </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <br>
+                <div class="row top-row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">Część egzaminu</div>
+                    <div class="col-sm-3">Długość</div>
+                </div>
+                <div class="row info-content">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        <b>1. Interal Assessment </b><br>
+                        Liczba punktów: max. 24 punkty (20% końcowej oceny). Z biologii można pisać tak zwanego “experimental-based IA”, który polega na tym, że projektujesz eksperyment, następnie wykonujesz go, a na sam koniec robisz z niego raport i analizę danych itd. Drugą opcją, choć zdecydowanie mniej popularną, jest “data-based/theoretical IA”, który polega na tym, że dane bierzesz z internetu i je analizujesz. Pisanie takiego teoretycznego, według wielu, jest trudniejsze, ponieważ trzeba zrobić go porządnie, gdyż IB dość surowo  je ocenia, bo zależy im abyś wykazał, że włożyłeś w niego dużo pracy, umiejętności analizowania i refleksji
+                        Często najcięższym elementem jest wybranie tematu swojego internala, ponieważ jest to zadania dość przytłaczające. Jeśli brakuje Ci pomysłów, wpisz w wujka Google “biology IA ideas” i zainspiruj się. Uwaga: nie zgapiaj całych tematów, traktuj to jako inspirację.Ja szczerze polecam zrobić eksperyment z jakimiś roślinami czy ziarnami, ponieważ  jest to wykonalne nawet w domu i nie należy do jakoś bardziej skomplikowanych. Schody dopiero się zaczną jak będzie trzeba potem zebrać dane i je przeanalizować, ale wszystko jest do pokonania, szczególnie jeśli ma się dobrego nauczyciela
                     </div>
-                    <div class="info-block" id="phys">
-                        <div class="info-title">Physics</div>
-                        <div class="info-short">
+                    <div class="col-sm-3">
+                        <b>Maksymalnie 12 stron</b><br>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <div class="row info-content">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        <b>2. Arkusz pierwszy (Paper 1)</b><br>
+                        W paper 1 mamy 30 pytań wielokrotnego wyboru dla SL, a dla HL 40 takich pytań.Podczas tego egzaminu jesteś pozostawiony samemu sobie, ponieważ nie masz dostępu do kalkulatora. Liczba punktów: 30 dla SL i 40 dla HL (20% oceny dla obu poziomów).
+                    </div>
+                    <div class="col-sm-3">
+                        <b>45 minut (SL) lub 1 godzina (HL)</b><br>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <div class="row info-content">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        <b>3. Arkusz drugi (Paper 2)</b><br>
+                        Jest to najdłuższa część egzaminu i, według wielu, najtrudniejsza. Polega na samych zadaniach otwartych, które potrafią być dość złożone i długie, ale też są takie przyjemniejsze. Tutaj już masz dostęp do kalkulatora. Radziłabym przed egzaminem dobrze zaznajomić się z tą kartą (gdzie mniej więcej co znajdziesz), żeby nie tracić czasu na szukanie podczas szukania. Paper 2 składa się z dwóch części: w części A znajdują się pytania otwarte, ale które wymagają krótszej wypowiedzi, natomiast w części B mamy pytania, które wymagają dłuższej wypowiedzi. Liczba punktów: 50 dla SL (40% końcowej oceny) i 72 dla HL (36% końcowej oceny).
+                    </div>
+                    <div class="col-sm-3">
+                        <b>1 godzina 15 minut (SL) lub 2 godziny 15 minut (HL)</b><br>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <div class="row info-content">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        <b>4. Paper 3 (tylko dla rozszerzenia)</b><br>
+                        Paper 3 składa się z dwóch części: część A zawiera pytania dotyczące eksperymentów i umiejętności analizowania danych. Część B składa się z pytań o jednego z opcji, które wybrałeś: Neurobiology and Behaviour, Biotechnology and Bioinformatics, Ecology and Conservation, Human physiology. Liczba punktów:35 dla SL (20% końcowej oceny) i 45 dla HL (24% końcowej oceny).
+                    </div>
+                    <div class="col-sm-3">
+                        <b>1 godzina (SL) lub 1 godzina 15 minut (HL)</b><br>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+            <div class="info-block container-fluid" id="chem">
+                <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7 info-title">Chemistry</div>
+                    <div class="col-sm-3 info-short">
+                        Groupa: Group 4 Experimental Sciences <br>
+                    Poziom: SL/HL
+                    </div>
+                </div>
+                <div class="row short-desc">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        Chemia do najłatwiejszych nie należy, ale jest to ogarnięcia, jeśli tylko jesteś gotowy włożyć w nią trochę pracy. Syllabus składa się z 11 działów + option dla SL i z 21 działów + option dla HL. Nacisk kładzie się również na zajęcia w labie. Aby dobrze zdać chemię, koniecznym jest aby robić jak najwięcej zadań. Jak je znaleźć? Szukaj question banks (np. Na stronie Revision Dojo czy od absolwentów, którzy na pewno mają dostęp do wielu zadań). Szukaj też dostępnych w internecie past papers i rozwiązuj je i ucz się na swoich błędach. Jeśli masz problem z jakimś tematem polecam zajrzeć na YT (np <a class="link-secondary" href="https://www.youtube.com/@MSJChem">@MSJChem</a>, <a class="link-secondary" href="https://www.youtube.com/results?search_query=%40ibchemvids">@ibchemvids</a> czy <a class="link-secondary" href="https://www.youtube.com/@AndrewWeng">@AndrewWeng</a>)
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <br>
+                <div class="row top-row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">Część egzaminu</div>
+                    <div class="col-sm-3">Długość</div>
+                </div>
+                <div class="row info-content">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        <b>1. Interal Assessment </b><br>
+                        Liczba punktów: 20% ostatecznej oceny. Z chemi można pisać tak zwanego “experimental-based IA”, który polega na tym, że projektujesz eksperyment, następnie wykonujesz go, a na sam koniec robisz z niego raport i analizę danych itd. Drugą opcją, choć zdecydowanie mniej popularną, jest “data-based/theoretical IA”, który polega na tym, że dane bierzesz z internetu i je analizujesz. Pisanie takiego teoretycznego, według wielu, jest trudniejsze, ponieważ trzeba zrobić go porządnie, gdyż IB dość surowo  je ocenia, bo zależy im abyś wykazał, że włożyłeś w niego dużo pracy, umiejętności analizowania i refleksji
+                        Często najcięższym elementem jest wybranie tematu swojego internala, ponieważ jest to zadania dość przytłaczające. Jeśli brakuje Ci pomysłów, wpisz w wujka Google “chemistry IA ideas” i zainspiruj się. Uwaga: nie zgapiaj całych tematów, traktuj to jako inspirację.
+                    </div>
+                    <div class="col-sm-3">
+                        <b>Maksymalnie 12 stron</b><br>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <div class="row info-content">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        <b>2. Arkusz pierwszy (Paper 1)</b><br>
+                        W paper 1 mamy 30 pytań wielokrotnego wyboru dla SL, a dla HL 40 takich pytań.Podczas tego egzaminu jesteś pozostawiony samemu sobie, ponieważ nie masz dostępu ani do kalkulatory, ani do karty wzorów itd. Dostaniesz tylko niezastąpioną tablicę Mendelejewa. Liczba punktów: 30 dla SL i 40 dla HL (20% oceny dla obu poziomów).
+                    </div>
+                    <div class="col-sm-3">
+                        <b>45 minut (SL) lub 1 godzina (HL)</b><br>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <div class="row info-content">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        <b>3. Arkusz drugi (Paper 2)</b><br>
+                        Jest to najdłuższa część egzaminu i, według wielu, najtrudniejsza. Polega na samych zadaniach otwartych, które potrafią być dość złożone i długie, ale też są takie przyjemniejsze. Tutaj już masz dostęp do kalkulatora i karty wzorów. Radziłabym przed egzaminem dobrze zaznajomić się z tą kartą (gdzie mniej więcej co znajdziesz), żeby nie tracić czasu na szukanie podczas szukania. Liczba punktów: 50 dla HL (40% końcowe oceny) i 90 dla HL (36% końcowej oceny)
+                    </div>
+                    <div class="col-sm-3">
+                        <b>1 godzina 15 minut (SL) lub 2 godziny 15 minut (HL)</b><br>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <div class="row info-content">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7">
+                        <b>4. Paper 3 (tylko dla rozszerzenia)</b><br>
+                        Paper 3 składa się z dwóch części: część A zawiera pytania dotyczące eksperymentów i umiejętności analizowania danych. Część B składa się z pytań o jednego z opcji, które wybrałeś: Materials, Biochemistry, Energy, Medicinal chemistry. Liczba punktów:35 dla SL (20% końcowej oceny) i 45 dla HL (24% końcowej oceny).
+                    </div>
+                    <div class="col-sm-3">
+                        <b>1 godzina (SL) lub 1 godzina 15 minut (HL)</b><br>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                </div>
+                 <div class="info-block container-fluid" id="chem">
+                    <div class="row">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-7 info-title">Environmental Systems and Societies (zobacz <a class="link-secondary" href="#ess">ESS</a>)</div>
+                        <div class="col-sm-3 info-short">
+                            Groupa: Group 4 Experimental Sciences <br>
+                            Poziom: SL
+                        </div>
+                    </div>
+                </div>
+                <div class="info-block container-fluid" id="comp">
+                    <div class="row">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-7 info-title">Computer Science</div>
+                        <div class="col-sm-3 info-short">
                             Groupa: Group 4 Experimental Sciences <br>
                             Poziom: SL/HL
                         </div>
-                        <div class="info-content">
-                            Fizyka na IB jest przedmiotem, którego nauczycie się zupełnie od początku - od podstaw, by przejść do nieco bardziej skomplikowanych zagadnień w dalszej części waszego kursu. Możecie spokojnie zapomnieć o wszystkim, czego nauczyliście się w polskiej podstawie programowej, bo i tak cały materiał zostanie dokładnie omówiony od początku. Jeśli boicie się więc, że nie macie wystarczającej wiedzy by wybrać Fizykę w IB, nie musicie się już obawiać. Syllabus jest oparty na 8 głównych zagadnieniach dla SL, różnica dla HL polega głównie na rozszerzeniu tematów, które bardzo dobrze znacie z podstawy. HL jest więc typowym rozszerzeniem - materiał z SL buduje wam dobre podstawy, żeby zająć się zagadnieniami z HL. Fizyka oferuje także opcję - zarówno dla SL jak i HL - co przekłada się na 3 egzaminy zarówno dla SL jak i dla HL. Jeśli lubisz fizykę samą w sobie, lub interesuje cię to jak działa świat - Fizyka w IB jest przedmiotem dla ciebie!
+                    </div>
+                    <div class="row short-desc">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-7">
+                            Jest to przedmiot idealny dla osób chcących podążać ścieżką korposzczura (żartuję, ale CompSci bardzo dobrze przygotuje was do intensywnej pracy w firmie, gdzie musicie testować i programować) lub chcących mieć pracę na kontrakcie, którą mogą wykonywać z jakiegokolwiek miejsca na świecie. Computer Science, albo w skrócie CS, jest standardową informatyką - z taką różnicą, że programowania używacie bardzo często, a działy o organizacji komputerowej nie są aż tak ważne. Jeśli chcesz nauczyć się biegle programować i rozwiązywać zadania logiczne, ten przedmiot jest zdecydowanie dla ciebie. Wbrew pozorom jednak, nie jest to przedmiot łatwy, i nie każdy będzie w stanie poradzić sobie z dużym nakładem pracy, jaki prezentuje przed nami kurs - mowa tutaj głównie o Internal Assessment, które jest bardzo długie i skomplikowane - jest uważane za najtrudniejsze IA (lub jedno z najtrudniejszych) w całym IB. <br> 
+                            <b>Pro-tips:</b> <br>
+                            - Przeróbcie dużo past papers i dobrze zapoznajcie się z markschemes<br>
+                            - Zróbcie kurs programowania przed rozpoczęciem nauki w IB - ułatwi wam to realizację internala<br>
+                            - Ćwiczcie wasze umiejętności myślenia algorytmicznego - ułatwi wam to konstruowanie kodu na maturze<br>
+                            - Nie skupiajcie się na teorii całego kursu aż tak bardzo - wystarczy wam wiedzieć około 30% - bo to samo 30% zazwyczaj pojawia się na maturze - dlatego tak ważne są past papers!<br>
+                            - Jeśli chodzi o przygotowanie na Paper 3 - w internecie znajdziecie mnóstwo resources - wystarczy, że wpiszecie ‘paper 3 computer science preparation’ a dodatkowe wskazówki i przykładowe pytania wyskoczą wam same<br>
+                            <b>Resources:</b>
+                            - Syllabus i past papers - najlepszy sposób na zobaczenie z czego mogą pojawić się pytania, oraz z czego najczęściej będziecie egzaminowani<br>
+                            - Computer Science Wiki - strona wyjaśniająca wszystkie zagadnienia z syllabusa, oraz mająca wiele przydatnych wskazówek jeśli chodzi o internal assessment<br>
+                        </div>
+                        <div class="col-sm-1"></div>
+                    </div>
+                    <br>
+                    <div class="row top-row">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-7">Część egzaminu</div>
+                        <div class="col-sm-3">Długość</div>
+                    </div>
+                    <div class="row info-content">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-7">
+                            <b>1. Interal Assessment </b><br>
+                            Liczba punktów: max. 34 punkty. Procent oceny: 30% dla SL, 20% dla HL.Jak już się trochę tego internala boicie - to bardzo dobrze, ja też się bałam. Internal dzieli się na 5 części i 2 appendixy - w najbardziej standardowej formie, podanej przez IB. Za części A, B i E możecie dostać po 6 punktów, za część C - max. 12, a za część D - max. 4 punkty. 
+                            Internal polega na przedstawieniu działającego produktu - programu napisanego dla określonego klienta. Żeby dobrze wam ten internal poszedł, znajdźcie sobie klienta, który będzie dla was często dostępny, lub takiego, który da wam wolną rękę. W ramach IA możecie zaprogramować bazę danych, grę, stronę internetową - właściwie wszystko do czego jesteście zmuszeni użyć programowania i jesteście w stanie zrobić do tego dokumentację. Poniżej omówię wszystkie części internala - trochę ich jest, więc przygotujcie się na czytanie długiego tekstu.
+                            <br> 
+                            Część A - Planowanie - w części A przedstawiacie swojego klienta, produkt jaki chcecie mu zaprogramować, lub produkt o jaki klient poprosił. W tej części zbieracie wszystkie wymagania co do produktu, i krótko je opisujecie. Przedstawiacie także krótki opis tego, jak zamierzacie się za realizację pomysłu klienta zabrać. Wszystko zwieńczacie appendixem, który ma formę pierwszego wywiadu z klientem. 
                             <br>
-                            <b>Pro-tips:</b><br>
-                            - Past papers! Rozwiązywanie past papers to naprawdę najlepsza technika na uczenie się - ostatnio syllabus został zmieniony, ale past papers z poprzedniego syllabusa też nadają się do wykorzystania - pamiętaj jednak, że mogą różnić się od tego, co zobaczysz na egzaminie<br>
-                            - Ucz się na bieżąco - wiele tematów w fizyce opiera się na sobie, więc ważne jest, by zbudować solidne podstawy<br>
-                            - Internal na prawdę nie zajmie ci dużo czasu - im szybciej go zrobisz, tym lepiej!<br>
+                            Część B - Record of Tasks i Design - w części B prezentujecie wykaz zadań, które musicie wykonać, by skompletować cały produkt. Opisujecie wszystko co robicie, jak najdokładniej się da. Pamiętajcie także o uwzględnieniu planu testów i funkcji, których używacie w programie. Na koniec rysujecie flowcharty i waszą wizję produktu - czyli to, jak według was produkt powinien wyglądać w końcowej wersji. 
+                            <br>
+                            Część C - Dokumentacja i Produkt - tutaj zaczyna się zabawa, bo zaczyna się pisanie i testowanie produktu. Wszystkie wasze umiejętności programistyczne (oraz wasza cierpliwość) zostaną sprawdzone przy procesie pisania produktu. Polecam wam zacząć z produktem dużo wcześniej - da wam to możliwość manewrowania czasem (mimo, że IB mówi, że na IA powinno się przeznaczyć około 30h - liczcie sobie co najmniej 100h pracy na internala z CS). Kiedy skończycie pisać produkt, zaczynacie dokumentację - opis wszystkich technik programistycznych, które zostały użyte w waszym produkcie. Pamiętajcie, żeby nie przekroczyć limitu słów, bo inaczej moderator nie przeczyta wam części E!
+                            <br>
+                            Część D - Prezentacja produktu - czyli najbardziej znienawidzona (wbrew pozorom) część internala z CS. Polega ona na nagraniu filmiku instruktażowego o waszym programie. Pokazujecie wszystkie funkcjonalności programu, jak działa, jak go obsługiwać, itp. Filmik będzie miał około 5 minut - ale nagrywając go i montując, spędzicie od 3 do 5h przy ekranie - przygotujcie sobie więc coś na osłodzenie waszego zwycięstwa nad internalem.
+                            <br>
+                            Część E- Ewaluacja - bardzo przyjemna część, polega na powrocie do części A i zreflektowaniu się nad tym jak źle albo dobrze poszła wam praca nad produktem. Patrzycie które wymagania zostały zrealizowane, a które nie. Przeprowadzacie także ostatni wywiad z klientem (drugi Appendix) i zbieracie feedback odnośnie tego, co w nastepnej wersji produktu można poprawić.
+                        </div>
+                        <div class="col-sm-3">
+                            <b>Maksymalnie 2000 słów</b><br>
+                        </div>
+                        <div class="col-sm-1"></div>
+                    </div>
+                    <div class="row info-content">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-7">
+                            <b>2. Arkusz pierwszy (Paper 1)</b><br>
+                            Ilość punktów: max. 70 punktów dla SL i max. 100 punktów dla HL. Procent oceny: 45% dla SL, 40% dla HL. Podczas Paper 1 zostanie sprawdzony każdy aspekt z twojej wiedzy z syllabusa do CS. Paper 1 jest tak naprawdę jedynym egzaminem, na który potrzebna ci jest wiedza z podstawowego syllabusa - po przeczytaniu następnych sekcji zrozumiesz dlaczego. Paper 1 składa się z dwóch sekcji - A i B. W sekcji A są pytania z kategorii bardziej definicji, przeliczania systemów liczbowych, lub bardzo podstawowa teoria. Osobiście, moim ulubionym pytaniem z sekcji A jest ‘define beta testing’, powtarzające się na średnio co drugim egzaminie (jeśli ktoś obudziłby mnie w nocy i spytał czym jest beta testing, nie musiałabym się nawet zastanawiać). W sekcji B spotkacie trudniesze, bardziej rozbudowane pytania - średnio 3 opisowe i 2 z kategorii ‘napisz pseudokod’. W opisowych pytaniach zostaniecie zapytani o rozwiązania implementowane dla firm, oraz teoretyczne sytuacje mogące zdarzyć się w prawdziwym życiu. W pytaniach na myślenie algorytmiczne, zostanie wam przedstawiony krótki problem, waszym zadaniem jest napisać kod, lub zaproponować rozwiązanie zgodnie z treścią pytania. IB bardzo lubi powtarzać pytania na Paper 1, dlatego najlepszą strategią jest po prostu przerobienie jak największej ich ilości. 
+                        </div>
+                        <div class="col-sm-3">
+                            <b>1 godzina 30 minut (SL) lub 2 godziny 10 minut (HL)</b><br>
+                        </div>
+                        <div class="col-sm-1"></div>
+                    </div>
+                    <div class="row info-content">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-7">
+                            <b>3. Arkusz drugi (Paper 2)</b><br>
+                            Ilość punktów: max. 45 punktów dla SL i max. 65 punktów dla HL. Procent oceny: 25% dla SL, 20% dla HL. Ten egzamin sprawdzi waszą wiedzę z opcji - dodatku do standardowego syllabusa. Możecie wybrać którą część egzaminu chcecie rozwiązać. Dostępne są:
+                            <br>
+                            Databases (wiedza dotycząca baz danych, jedna z prostszych dostępnych opcji)
+                            <br>
+                            Modelling and Simulation (wszystko dotyczące modelowania, symulacji, uczenia maszynowego i grafiki 3D)
+                            <br>
+                            Web Science (wszystko o stronach komputerowych)
+                            <br>
+                            Object-Oriented Programming (OOP - testowanie wiedzy z Javy i konstruowania kodu)
+                            <br>
+                            W pierwszych trzech opcjach, wiedza o konstruowaniu kodu nie jest potrzebna i nie będzie testowana - pytania będą stricte teoretyczne. W opcji OOP, będzie od was wymagane stworzenie kodu i jego interpretowanie - dlatego ostatnia opcja jest uważana przez niektórych za najtrudniejszą i najbardziej wymagającą. Najlepszym sposobem na przygotowanie się do tego egzaminu jest znowu, rozwiązanie jak największej ilości past papers. 
+                        </div>
+                        <div class="col-sm-3">
+                            <b>1 godzina (SL) lub 1 godzina 20 minut (HL)</b><br>
+                        </div>
+                        <div class="col-sm-1"></div>
+                    </div>
+                    <div class="row info-content">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-7">
+                            <b>4. Paper 3 (tylko dla rozszerzenia)</b><br>
+                            Ilość punktów: max. 30 punktów. Procent oceny: 20%. W trzecim egzaminie z CS macie do czynienia z case study, które jest wypuszczane przez IB we wrześniu, w roku szkolnym w którym egzamin będziecie zdawać. Na tym paperze spotkacie się z rozmaitymi pytaniami dotyczącymi treści case study, możecie być zapytani o przeanalizowanie jakiejś części, lub o swoją opinię na temat problemu i rozwiązań proponowanych przez IB. Warto wspomnieć, że na ten egzamin możecie mieć ze sobą kopię waszego case study, także nie musicie niczego pamiętać - ważne jest jednak, żeby dokładnie przeanalizować jego treść i dobrze znać case study - co zaoszczędzi wam czasu na egzaminie.
+                        </div>
+                        <div class="col-sm-3">
+                            <b>1 godzina</b><br>
+                        </div>
+                        <div class="col-sm-1"></div>
+                    </div>
+                    </div>
+                    <div class="info-block container-fluid" id="phys">
+                        <div class="row">
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-7 info-title">Physics</div>
+                            <div class="col-sm-3 info-short">
+                                Groupa: Group 4 Experimental Sciences <br>
+                                Poziom: SL/HL
+                            </div>
+                        </div>
+                        <div class="row short-desc">
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-7">
+                                Fizyka na IB jest przedmiotem, którego nauczycie się zupełnie od początku - od podstaw, by przejść do nieco bardziej skomplikowanych zagadnień w dalszej części waszego kursu. Możecie spokojnie zapomnieć o wszystkim, czego nauczyliście się w polskiej podstawie programowej, bo i tak cały materiał zostanie dokładnie omówiony od początku. Jeśli boicie się więc, że nie macie wystarczającej wiedzy by wybrać Fizykę w IB, nie musicie się już obawiać. Syllabus jest oparty na 8 głównych zagadnieniach dla SL, różnica dla HL polega głównie na rozszerzeniu tematów, które bardzo dobrze znacie z podstawy. HL jest więc typowym rozszerzeniem - materiał z SL buduje wam dobre podstawy, żeby zająć się zagadnieniami z HL. Fizyka oferuje także opcję - zarówno dla SL jak i HL - co przekłada się na 3 egzaminy zarówno dla SL jak i dla HL. Jeśli lubisz fizykę samą w sobie, lub interesuje cię to jak działa świat - Fizyka w IB jest przedmiotem dla ciebie!
+                                <br>
+                                <b>Pro-tips:</b><br>
+                                - Past papers! Rozwiązywanie past papers to naprawdę najlepsza technika na uczenie się - ostatnio syllabus został zmieniony, ale past papers z poprzedniego syllabusa też nadają się do wykorzystania - pamiętaj jednak, że mogą różnić się od tego, co zobaczysz na egzaminie<br>
+                                - Ucz się na bieżąco - wiele tematów w fizyce opiera się na sobie, więc ważne jest, by zbudować solidne podstawy<br>
+                                - Internal na prawdę nie zajmie ci dużo czasu - im szybciej go zrobisz, tym lepiej!<br>
 
-                            <b>Resources:</b><br>
-                            - Grade Gorilla - świetna strona z szybkimi quizami z rozmaitych tematów, spotkasz na niej pytania w formie tych z Paper 1 - służą jako bardzo dobra powtórka przed sprawdzianami<br>
-                            - ibphysics.org - dokładne notatki zrobione przez alumna IB, udostępnione w formie strony internetowej<br>
-                            - Past papers i syllabus z IB - standardowo, bardzo dobre źródła by zobaczyć, co może się pojawić na egzaminie<br>
-
-                            <br><br>
-                            <b>Elementy matury:</b><br>
-                            <b>1. Interal Assessment </b>- Typ: Eksperyment. Liczba punktów: max. 24. Procent oceny: 20% dla SL i HL. Liczba stron: max. 12. Internal z fizyki jest bardzo przyjemny - chodzi tutaj o stworzenie i przeprowadzenie własnego eksperymentu, który będzie dotyczył jednego z zagadnień w syllabusie. Wasza praca może mieć maksymalnie 12 stron, co może się wydawać dużym limitem, ale kiedy zaczniecie rozpisywać się nad waszym eksperymentem, zobaczycie, że to wcale nie tak dużo. Internal bardzo przyjemnie się pisze - najpierw przeprowadzacie swój eksperyment, a następnie, z wzorów dostępnych w syllabusie (lub takich, które wyprowadzicie sami) liczycie interesujący was wynik i następnie go interpretujecie. Fajnie jest dołączyć wykresy do waszego internala, zinterpretować ich gradient, i dodać sobie tym samym punktów w kryterium ‘analiza wyników’. Dobrze jest też wspomnieć o bezpieczeństwie, oraz pamiętać o błędach pomiarowych - wszystko to jest bardzo proste do zaimplementowania, a daje wam dość dużo dodatkowych punktów z pracy. 
-                            
-                            <br>
-                            <b>2. Paper 1</b> - Czas trwania: 45 minut dla SL i 1dla HL. Ilość punktów: max. 30 punktów dla SL i max. 40 punktów dla HL. Procent oceny: 20% dla SL, 20% dla HL. Paper 1 jest jednym z najkrótszych egzaminów, ponieważ jest on bazowany na pytaniach typu A,B,C,D. Dla każdego pytania macie podane 4 możliwe odpowiedzi - tylko jedna z nich jest poprawna. Każde pytanie jest liczone za 1 punkt, dlatego potencjalną strategią byłoby zaczęcie od pytań bardziej teoretycznych, żeby więcej czasu zostawić sobie na obliczenia pod koniec egzaminu - a jeśli nie zdążycie policzyć wszystkich pytań, zawsze macie punkty z pytań o teorię. Ten paper wymaga dobrej umiejętności czytania ze zrozumieniem, ponieważ niekiedy w pytaniu pytają o bardzo podstawową rzecz, a w niepotrzebnych obliczeniach możesz się pogubić i stracić cenny czas. Jeśli nie znasz odpowiedzi i nie przypomnisz sobie nic do końca egzaminu - strzelaj! IB nie odejmuje punktów za niepoprawne odpowiedzi, a masz 25% szans, że trafisz na tą dobrą.
-                            
-                            
-                            <br>
-                            <b>3. Paper 2</b> - Czas trwania: 1h 15 minut dla SL i 2h 15 minut dla HL. Ilość punktów: max. 50 punktów dla SL i max. 95 punktów dla HL. Procent oceny: 40% dla SL, 36% dla HL. Na drugim egzaminie będziecie mieli do czynienia z rozmaitymi zadaniami z całego syllabusa. Nie będą to już pytania z możliwością wyboru odpowiedzi, ale rozbudowane zadania tekstowe, z wieloma podpunktami. Jest to najtrudniejsza część egzaminów z fizyki, jest też jednym z dłuższych egzaminów jakie IB stawia przed kandydatami. Strategia na Paper 2 to przede wszystkim past papers - pozwolą wam one zapoznać się ze sposobem, w jaki formułowane są pytania, i jakich części syllabusa dotyczą najczęściej (z własnych obserwacji mogę powiedzieć, że jest to kinematyka, prąd i elektromagnetyzm i fale). Ten egzamin może was zaskoczyć formą pytań, bo pojawia się tam dosłownie wszystko - od definicji, przez wyjaśnienia, po zadania na liczenie, przeliczanie, oraz zamianę jednostek; dlatego tak ważne jest przerobienie jak największej ilości past papers.                            
-                            
-                            <br>
-                            <b>4. Paper 3 (tylko dla rozszerzenia)</b> - Czas trwania: 1h dla SL i 1h 15 minut dla HL. Ilość punktów: max. 35 punktów dla SL i max. 45 punktów dla HL. Procent oceny: 20% dla SL, 24% dla HL. Trzeci egzamin w serii dotyczy zarówno poziomu SL jak i HL, składa się z dwóch sekcji - A i B. W sekcji A spotkacie się z zadaniami bazującymi na danych i wykresach, przeznaczonych do rozwiązania dla wszystkich kandydatów. W sekcji B przejdziecie już do zadań związanych z opcją, którą zdecydowaliście się przerobić. Dostępne opcje to: Relativity (deep dive w teorię względności), Engineering Physics (wszystko związane z fizyką, która może przydać ci się na studiach inżynierskich), Imaging (wszystko co związane z obrazami i tworzeniem obrazu), Astrophysics (wszystko związane z gwiazadmi i kosmosem). Każda z opcji ma swoje wady i zalety, za najprostszą uważana jest Astrofizyka, ponieważ do niej potrzeba głównie teorii, nie jest ona bazowana na obliczeniach tak bardzo jak inne opcje. Polecamy wybrać to, co może ci się potem przydać na studiach!
-                            
-                            
+                                <b>Resources:</b><br>
+                                - Grade Gorilla - świetna strona z szybkimi quizami z rozmaitych tematów, spotkasz na niej pytania w formie tych z Paper 1 - służą jako bardzo dobra powtórka przed sprawdzianami<br>
+                                - ibphysics.org - dokładne notatki zrobione przez alumna IB, udostępnione w formie strony internetowej<br>
+                                - Past papers i syllabus z IB - standardowo, bardzo dobre źródła by zobaczyć, co może się pojawić na egzaminie<br>
+                            </div>
+                            <div class="col-sm-1"></div>
+                        </div>
+                        <br>
+                        <div class="row top-row">
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-7">Część egzaminu</div>
+                            <div class="col-sm-3">Długość</div>
+                        </div>
+                        <div class="row info-content">
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-7">
+                                <b>1. Interal Assessment </b><br>
+                                Liczba punktów: max. 24. Procent oceny: 20% dla SL i HL. Internal z fizyki jest bardzo przyjemny - chodzi tutaj o stworzenie i przeprowadzenie własnego eksperymentu, który będzie dotyczył jednego z zagadnień w syllabusie. Wasza praca może mieć maksymalnie 12 stron, co może się wydawać dużym limitem, ale kiedy zaczniecie rozpisywać się nad waszym eksperymentem, zobaczycie, że to wcale nie tak dużo. Internal bardzo przyjemnie się pisze - najpierw przeprowadzacie swój eksperyment, a następnie, z wzorów dostępnych w syllabusie (lub takich, które wyprowadzicie sami) liczycie interesujący was wynik i następnie go interpretujecie. Fajnie jest dołączyć wykresy do waszego internala, zinterpretować ich gradient, i dodać sobie tym samym punktów w kryterium ‘analiza wyników’. Dobrze jest też wspomnieć o bezpieczeństwie, oraz pamiętać o błędach pomiarowych - wszystko to jest bardzo proste do zaimplementowania, a daje wam dość dużo dodatkowych punktów z pracy. 
+                            </div>
+                            <div class="col-sm-3">
+                                <b>Maksymalnie 12 stron</b><br>
+                            </div>
+                            <div class="col-sm-1"></div>
+                        </div>
+                        <div class="row info-content">
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-7">
+                                <b>2. Arkusz pierwszy (Paper 1)</b><br>
+                                Ilość punktów: max. 30 punktów dla SL i max. 40 punktów dla HL. Procent oceny: 20% dla SL, 20% dla HL. Paper 1 jest jednym z najkrótszych egzaminów, ponieważ jest on bazowany na pytaniach typu A,B,C,D. Dla każdego pytania macie podane 4 możliwe odpowiedzi - tylko jedna z nich jest poprawna. Każde pytanie jest liczone za 1 punkt, dlatego potencjalną strategią byłoby zaczęcie od pytań bardziej teoretycznych, żeby więcej czasu zostawić sobie na obliczenia pod koniec egzaminu - a jeśli nie zdążycie policzyć wszystkich pytań, zawsze macie punkty z pytań o teorię. Ten paper wymaga dobrej umiejętności czytania ze zrozumieniem, ponieważ niekiedy w pytaniu pytają o bardzo podstawową rzecz, a w niepotrzebnych obliczeniach możesz się pogubić i stracić cenny czas. Jeśli nie znasz odpowiedzi i nie przypomnisz sobie nic do końca egzaminu - strzelaj! IB nie odejmuje punktów za niepoprawne odpowiedzi, a masz 25% szans, że trafisz na tą dobrą.
+                            </div>
+                            <div class="col-sm-3">
+                                <b>45 minut (SL) lub 1 godzina (HL)</b><br>
+                            </div>
+                            <div class="col-sm-1"></div>
+                        </div>
+                        <div class="row info-content">
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-7">
+                                <b>3. Arkusz drugi (Paper 2)</b><br>
+                                Ilość punktów: max. 50 punktów dla SL i max. 95 punktów dla HL. Procent oceny: 40% dla SL, 36% dla HL. Na drugim egzaminie będziecie mieli do czynienia z rozmaitymi zadaniami z całego syllabusa. Nie będą to już pytania z możliwością wyboru odpowiedzi, ale rozbudowane zadania tekstowe, z wieloma podpunktami. Jest to najtrudniejsza część egzaminów z fizyki, jest też jednym z dłuższych egzaminów jakie IB stawia przed kandydatami. Strategia na Paper 2 to przede wszystkim past papers - pozwolą wam one zapoznać się ze sposobem, w jaki formułowane są pytania, i jakich części syllabusa dotyczą najczęściej (z własnych obserwacji mogę powiedzieć, że jest to kinematyka, prąd i elektromagnetyzm i fale). Ten egzamin może was zaskoczyć formą pytań, bo pojawia się tam dosłownie wszystko - od definicji, przez wyjaśnienia, po zadania na liczenie, przeliczanie, oraz zamianę jednostek; dlatego tak ważne jest przerobienie jak największej ilości past papers.         
+                            </div>
+                            <div class="col-sm-3">
+                                <b>1 godzina 15 minut (SL) lub 2 godziny 15 minut (HL)</b><br>
+                            </div>
+                            <div class="col-sm-1"></div>
+                        </div>
+                        <div class="row info-content">
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-7">
+                                <b>4. Paper 3 (tylko dla rozszerzenia)</b><br>
+                                Ilość punktów: max. 35 punktów dla SL i max. 45 punktów dla HL. Procent oceny: 20% dla SL, 24% dla HL. Trzeci egzamin w serii dotyczy zarówno poziomu SL jak i HL, składa się z dwóch sekcji - A i B. W sekcji A spotkacie się z zadaniami bazującymi na danych i wykresach, przeznaczonych do rozwiązania dla wszystkich kandydatów. W sekcji B przejdziecie już do zadań związanych z opcją, którą zdecydowaliście się przerobić. Dostępne opcje to: Relativity (deep dive w teorię względności), Engineering Physics (wszystko związane z fizyką, która może przydać ci się na studiach inżynierskich), Imaging (wszystko co związane z obrazami i tworzeniem obrazu), Astrophysics (wszystko związane z gwiazadmi i kosmosem). Każda z opcji ma swoje wady i zalety, za najprostszą uważana jest Astrofizyka, ponieważ do niej potrzeba głównie teorii, nie jest ona bazowana na obliczeniach tak bardzo jak inne opcje. Polecamy wybrać to, co może ci się potem przydać na studiach!
+                            </div>
+                            <div class="col-sm-3">
+                                <b>1 godzina (SL) lub 1 godzina 15 minut (HL)</b><br>
+                            </div>
+                            <div class="col-sm-1"></div>
+                        </div>
+                        </div>
+                <div class="transparent-block"></div>
+                <div class="info-block container-fluid" id="mat">
+                    <div class="row">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-7 info-title">Mathematics</div>
+                        <div class="col-sm-3 info-short">
+                            Groupa: Group 5 Mathematics <br>
+                        Poziom: SL/HL
                         </div>
                     </div>
-                <div class="transparent-block"></div>
-                <div class="info-block" id="mat">
-                    <div class="info-title">Mathematics</div>
-                    <div class="info-short">
-                        Groupa: Group 5 Mathematics <br>
-                        Poziom: SL/HL
+                    <div class="row short-desc">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-7">
+                            Na IB matematykę możecie wybrać w dwóch różnych wersjach - Mathematics Analyses and Approaches (AA) oraz Mathematics Applications and Interpretations (AI). Tak jak każdy inny przedmiot obie są dostępne na dwóch poziomach, podstawowym i rozszerzonym. 
+                            Tak naprawdę najlepszym wyznacznikiem tego, którą matematykę powinniście wybrać, są wymagania na studia - jeśli na wymarzonym kierunku lub uniwersytecie wymagają konkretnej ścieżki, to najlepiej uczyć się właśnie jej. Jeśli nie ma żadnej notki tego typu, zdecydujcie na podstawie tego, co Was bardziej interesuje. Matematyka AI skupia się na statystyce, prawdopodobieństwie, ogólnie matematyce stosowanej - elementach, które można zastosować w prawdziwym życiu niż matematyce teoretycznej, na której z kolei opiera się matematyka AA. 
+                        </div>
+                        <div class="col-sm-1"></div>
                     </div>
-                    <div class="info-content">
-                        Na IB matematykę możecie wybrać w dwóch różnych wersjach - Mathematics Analyses and Approaches (AA) oraz Mathematics Applications and Interpretations (AI). Tak jak każdy inny przedmiot obie są dostępne na dwóch poziomach, podstawowym i rozszerzonym. 
-                        Tak naprawdę najlepszym wyznacznikiem tego, którą matematykę powinniście wybrać, są wymagania na studia - jeśli na wymarzonym kierunku lub uniwersytecie wymagają konkretnej ścieżki, to najlepiej uczyć się właśnie jej. Jeśli nie ma żadnej notki tego typu, zdecydujcie na podstawie tego, co Was bardziej interesuje. Matematyka AI skupia się na statystyce, prawdopodobieństwie, ogólnie matematyce stosowanej - elementach, które można zastosować w prawdziwym życiu niż matematyce teoretycznej, na której z kolei opiera się matematyka AA. Jeśli lubicie działania i rozwiązywanie problemów matematycznych bardzo                     
-                        <br><br>
-                        <b>Elementy matury:</b><br>
-                        <b>1. Mathematical exploration </b>- praca mająca od 12 do 20 stron, w której na wybrany przez siebie temat piszecie 
-                        <br>
-                        <b>2. Paper 1</b> - krótkie zadania z prostymi obliczeniami; matematyka AA nie może tu korzystać z kalkulatora;
-                        <br>
-                        <b>3. Paper 2</b> - długie zadania z kilkoma podpunktami;      
-                        
-                        <br>
-                        <b>4. Paper 3 (tylko dla rozszerzenia)</b> - rozwiązywanie problemów za pomocą matematyki.
+                    <br>
+                    <div class="row top-row">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-7">Część egzaminu</div>
+                        <div class="col-sm-3">Długość</div>
+                    </div>
+                    <div class="row info-content">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-7">
+                            <b>1. Interal Assessment </b><br>
+                            Praca, w której na wybrany przez siebie temat piszecie 
+                        </div>
+                        <div class="col-sm-3">
+                            <b>12 - 20 stron</b><br>
+                        </div>
+                        <div class="col-sm-1"></div>
+                    </div>
+                    <div class="row info-content">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-7">
+                            <b>2. Arkusz pierwszy (Paper 1)</b><br>
+                            krótkie zadania z prostymi obliczeniami; matematyka AA nie może tu korzystać z kalkulatora;
+                        </div>
+                        <div class="col-sm-3">
+                            <b></b><br>
+                        </div>
+                        <div class="col-sm-1"></div>
+                    </div>
+                    <div class="row info-content">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-7">
+                            <b>3. Arkusz drugi (Paper 2)</b><br>
+                            Długie zadania z kilkoma podpunktami;
+                        </div>
+                        <div class="col-sm-3">
+                            <b></b><br>
+                        </div>
+                        <div class="col-sm-1"></div>
+                    </div>
+                    <div class="row info-content">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-7">
+                            <b>4. Paper 3 (tylko dla rozszerzenia)</b><br>
+                            Rozwiązywanie problemów za pomocą matematyki.
+                        </div>
+                        <div class="col-sm-3">
+                            <b></b><br>
+                        </div>
+                        <div class="col-sm-1"></div>
+                    </div>
                     </div>
                 </div>
-                <div class="footer">Created by Wojciech Siostrzonek 2024. All rights reserved.</div>
+                <div class="footer">IB logo:  <a class="link-secondary" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpl.m.wikipedia.org%2Fwiki%2FPlik%3AInternational_Baccalaureate_Logo.svg&psig=AOvVaw2bTdyU5Gw7zAHH0meDmSj1&ust=1710846458147000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCODtuu3V_YQDFQAAAAAdAAAAABAE">Link</a><br> IB subjects: <a class="link-secondary" href="https://thamesbritishschool.pl/learning/diploma-program/">Link</a></div>
         </div>
 
     </body>

@@ -187,7 +187,7 @@ body, html {
 }
 
 .info-content {
-  font-size: 3vmin;
+  font-size: 1.75vmin;
 }
 
 .transparent-block {
@@ -208,22 +208,26 @@ body, html {
 }
 
 .group {
-  font-size: 4vmin;
+  font-size: 3vmin;
   display: inline-block;
   margin-right: 5vmax;
 }
 
 .subject {
-  font-size: 3vmin;
+  font-size: 2.5vmin;
 }
 
 a {
-  color: white;
   font-weight: bold;
+  color: white;
+}
+
+a:hover {
+  color: grey;
 }
 
 .info-short {
-  font-size: 3vmin;
+  font-size: 2vmin;
   font-weight: bold;
 }
 
@@ -231,7 +235,20 @@ a {
   text-align: center;
   padding: 5vmin;
   width: 100vmax;
-  font-size: 4vmin;
+  font-size: 2vmin;
   background-color: rgb(21, 164, 218);
   color: white;
+}
+
+.top-row {
+  font-size: 3vmin;
+  font-weight: bold;
+}
+
+.short-desc {
+  font-size: 1.75vmin;
+}
+
+.row {
+  padding-bottom: 1vmin;
 }/*# sourceMappingURL=style.css.map */
